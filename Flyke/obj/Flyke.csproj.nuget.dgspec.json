@@ -39,28 +39,6 @@
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
-          "dependencies": {
-            "EntityFramework": {
-              "target": "Package",
-              "version": "[6.4.4, )"
-            },
-            "ExcelDataReader": {
-              "target": "Package",
-              "version": "[3.6.0, )"
-            },
-            "MahApps.Metro.IconPacks.Material": {
-              "target": "Package",
-              "version": "[4.11.0, )"
-            },
-            "MaterialDesignColors": {
-              "target": "Package",
-              "version": "[2.1.4, )"
-            },
-            "MaterialDesignThemes": {
-              "target": "Package",
-              "version": "[4.9.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
