@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Xóa_sửa(user)/1.0.0": {
+        "runtime": {
+          "Xóa_sửa(user).dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Xóa_sửa(user)/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

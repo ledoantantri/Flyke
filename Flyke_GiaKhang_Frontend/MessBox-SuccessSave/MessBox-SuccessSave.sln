@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessBox-SuccessSave", "MessBox-SuccessSave\MessBox-SuccessSave.csproj", "{62297694-4E31-4184-9BCD-DAB391FABBAE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62297694-4E31-4184-9BCD-DAB391FABBAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62297694-4E31-4184-9BCD-DAB391FABBAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62297694-4E31-4184-9BCD-DAB391FABBAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62297694-4E31-4184-9BCD-DAB391FABBAE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AB3009B0-A779-4955-8A3E-064531A0A526}
+	EndGlobalSection
+EndGlobal

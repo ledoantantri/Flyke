@@ -1,0 +1,3 @@
+D:\Shenkha_Github\DemoXaml\Onboarding\Onboarding\obj\Debug\net6.0-windows\Onboarding.csproj.AssemblyReference.cache
+D:\Shenkha_Github\DemoXaml\Onboarding\Onboarding\obj\Debug\net6.0-windows\App.g.cs
+D:\Shenkha_Github\DemoXaml\Onboarding\Onboarding\obj\Debug\net6.0-windows\Onboarding_MarkupCompile.cache

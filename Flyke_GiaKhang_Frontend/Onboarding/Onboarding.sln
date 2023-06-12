@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Onboarding", "Onboarding\Onboarding.csproj", "{1F186D00-0EBC-4E24-9CB5-D161A4180316}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{8E24E920-18C8-45D7-BBBF-0EE4877522C0}"
+	ProjectSection(SolutionItems) = preProject
+		..\Background_Flyke.png = ..\Background_Flyke.png
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F186D00-0EBC-4E24-9CB5-D161A4180316}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F186D00-0EBC-4E24-9CB5-D161A4180316}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F186D00-0EBC-4E24-9CB5-D161A4180316}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F186D00-0EBC-4E24-9CB5-D161A4180316}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5233C62B-BB70-4CCD-A75A-33F3B3B6E6BB}
+	EndGlobalSection
+EndGlobal
