@@ -1,0 +1,50 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Style x:Key="TextNormal" TargetType="TextBlock">
+        <Setter Property="FontFamily" Value="Raleway"/>
+        <Setter Property="FontSize" Value="29"/>
+        <Setter Property="Foreground" Value="White"/>
+        <Setter Property="FontWeight" Value="Normal" />
+        <Setter Property="FontStyle" Value="Normal" />
+
+    </Style>
+    <LinearGradientBrush x:Key="GradientBrush" StartPoint="0,0" EndPoint="1,0">
+        <GradientStop Offset="0" Color="#FB4A4A" />
+        <GradientStop Offset="1" Color="#2027CC" />
+    </LinearGradientBrush>
+
+    <!-- Định nghĩa Style cho dòng chữ có hiệu ứng gradient -->
+    <Style x:Key="TextHeaderGradient" TargetType="TextBlock">
+        <Setter Property="Width" Value="370" />
+        <Setter Property="Height" Value="80" />
+        <Setter Property="FontFamily" Value="Raleway" />
+        <Setter Property="FontWeight" Value="Black" />
+        <Setter Property="FontSize" Value="60" />
+        <Setter Property="LineHeight" Value="70.44" />
+        <Setter Property="LineStackingStrategy" Value="BlockLineHeight" />
+        <Setter Property="HorizontalAlignment" Value="Left" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="Foreground" Value="{StaticResource GradientBrush}" />
+    </Style>
+
+    <Style x:Key="TextDate" TargetType="TextBlock">
+        <Setter Property="FontFamily" Value="Raleway" />
+        <Setter Property="FontWeight" Value="Normal" />
+        <Setter Property="FontSize" Value="18" />
+        <Setter Property="LineHeight" Value="21.13" />
+        <Setter Property="TextAlignment" Value="Right" />
+        <Setter Property="VerticalAlignment" Value="Top" />
+        <Setter Property="Margin" Value="-114,39,114,0" />
+        <Setter Property="Foreground">
+            <Setter.Value>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                    <GradientStop Offset="0" Color="#FB4A4A" />
+                    <GradientStop Offset="1" Color="#2027CC" />
+                </LinearGradientBrush>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+
+</ResourceDictionary>

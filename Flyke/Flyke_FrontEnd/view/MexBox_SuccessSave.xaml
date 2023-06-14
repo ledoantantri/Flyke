@@ -1,0 +1,33 @@
+﻿<Window x:Class="Flyke_FrontEnd.view.MexBox_SuccessSave"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Flyke_FrontEnd.view"
+        mc:Ignorable="d"
+        Title="MexBox_SuccessSave" Height="162" Width="432">
+    <Grid>
+        <Grid Margin="10,10,-10,-10">
+            <Border Width="432" Height="162" CornerRadius="15" Background="#FFFFFF" 
+            BorderBrush="#000000" BorderThickness="1" Margin="3052,5189,0,0">
+                <Border.Effect>
+                    <DropShadowEffect BlurRadius="15" ShadowDepth="0" Direction="0" Color="#40000000" Opacity="0.25"/>
+                </Border.Effect>
+                <Grid>
+
+
+                </Grid>
+            </Border>
+        </Grid>
+        <TextBlock Text="Đã lưu thành công" Style="{StaticResource TextHeaderGradient}" 
+                               VerticalAlignment="Top" 
+                               FontSize="38"
+                               FontWeight="Normal" Margin="62,10,0,0"/>
+        <Button Style="{StaticResource ButtonGradient4}"
+                              VerticalAlignment="Top" Margin="128,83,129,0" Height="53"
+                            >
+            <TextBlock Text="OK" Style="{StaticResource TextNormal}" />
+        </Button>
+
+    </Grid>
+</Window>

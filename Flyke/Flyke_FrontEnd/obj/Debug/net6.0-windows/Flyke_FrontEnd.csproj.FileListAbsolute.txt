@@ -1,0 +1,11 @@
+C:\Users\Admin\source\repos\Flyke_FrontEnd\Flyke_FrontEnd\obj\Debug\net6.0-windows\Flyke_FrontEnd.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\Flyke_FrontEnd\Flyke_FrontEnd\obj\Debug\net6.0-windows\Resources\CustomControl\TemplateNavigateBar.baml
+C:\Users\Admin\source\repos\Flyke_FrontEnd\Flyke_FrontEnd\obj\Debug\net6.0-windows\Resources\Styles\Brush.baml
+C:\Users\Admin\source\repos\Flyke_FrontEnd\Flyke_FrontEnd\obj\Debug\net6.0-windows\Resources\Styles\ButtonStyles.baml
+C:\Users\Admin\source\repos\Flyke_FrontEnd\Flyke_FrontEnd\obj\Debug\net6.0-windows\Resources\Styles\TextStyle.baml
+C:\Users\Admin\source\repos\Flyke_FrontEnd\Flyke_FrontEnd\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\Admin\source\repos\Flyke_FrontEnd\Flyke_FrontEnd\obj\Debug\net6.0-windows\view\Window1.g.cs
+C:\Users\Admin\source\repos\Flyke_FrontEnd\Flyke_FrontEnd\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\Admin\source\repos\Flyke_FrontEnd\Flyke_FrontEnd\obj\Debug\net6.0-windows\Flyke_FrontEnd_MarkupCompile.cache
+C:\Users\Admin\source\repos\Flyke_FrontEnd\Flyke_FrontEnd\obj\Debug\net6.0-windows\Flyke_FrontEnd_MarkupCompile.lref
+C:\Users\Admin\source\repos\Flyke_FrontEnd\Flyke_FrontEnd\obj\Debug\net6.0-windows\Resources\Styles\NavigateBar.baml

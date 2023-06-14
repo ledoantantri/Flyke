@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="view\A_Revenue.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="view\A_RuleChange.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="view\A_SearchToCB.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="view\A_SearchToHK.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="view\MexBox_SuccessSave.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="view\MyHometoBanVe.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="view\S_HomeToBV.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="view\S_HomeToDC.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="view\S_SearchToCB.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="view\S_SearchToHK.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="view\ThemNhieu.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="view\XoaSua.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Resources\Styles\Brush.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Resources\Styles\ButtonStyles.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Resources\Styles\HeaderColumn.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="view\A_Revenue.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="view\A_RuleChange.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="view\A_SearchToCB.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="view\A_SearchToHK.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="view\MexBox_SuccessSave.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="view\MyHometoBanVe.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="view\S_HomeToBV.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="view\S_HomeToDC.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="view\S_SearchToCB.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="view\S_SearchToHK.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="view\ThemNhieu.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="view\XoaSua.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
