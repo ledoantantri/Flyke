@@ -2,19 +2,19 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
-    <Page Update="Resources\CustomControls\MesBox_SuccessSave.xaml">
+    <Page Update="CustomControls\MesBox_SuccessSave.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Resources\CustomControls\MesBox_Quit.xaml">
+    <Page Update="CustomControls\MesBox_Quit.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Resources\CustomControls\TemplateNavigateBar.xaml">
+    <Page Update="CustomControls\TemplateNavigateBar.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Resources\CustomControls\ThemNhieu.xaml">
+    <Page Update="CustomControls\ThemNhieu.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Resources\CustomControls\XoaSua_User.xaml">
+    <Page Update="CustomControls\XoaSua_User.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Resources\Styles\Brush.xaml">
@@ -33,6 +33,18 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\A_BangDieuKhien.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\M_DoanhThu.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\M_ThayDoiQuyDinh.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\M_TraCuu_CB.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\M_TraCuu_HK.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\A_TrangChu_BV.xaml">
