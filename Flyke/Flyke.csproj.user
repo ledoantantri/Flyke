@@ -2,22 +2,22 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
-    <Page Update="CustomControls\MesBox_SuccessSave.xaml">
+    <Page Update="Resources\CustomControls\MesBox_SuccessSave.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="CustomControls\MesBox_Quit.xaml">
+    <Page Update="Resources\CustomControls\MesBox_Quit.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="CustomControls\TemplateNavigateBar.xaml">
+    <Page Update="Resources\CustomControls\TemplateNavigateBar.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="CustomControls\ThemNhieu.xaml">
+    <Page Update="Resources\CustomControls\ThemNhieu.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="CustomControls\XoaSua.xaml">
+    <Page Update="Resources\CustomControls\XoaSua.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="CustomControls\XoaSua_User.xaml">
+    <Page Update="Resources\CustomControls\XoaSua_User.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Resources\Styles\Brush.xaml">
