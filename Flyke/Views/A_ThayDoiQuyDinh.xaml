@@ -1,0 +1,715 @@
+﻿<Window x:Class="A_RuleChange.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:A_RuleChange"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="1080" Width="1920">
+    <Grid>
+
+        <Grid Width="384" Height="1080"
+              HorizontalAlignment="Left" VerticalAlignment="Top"
+              >
+            <Grid.Background>
+                <LinearGradientBrush StartPoint="1,0" EndPoint="0,1">
+                    <GradientStop Color="#FF4343" Offset="0.0109" />
+                    <GradientStop Color="#4449CF" Offset="0.941" />
+                </LinearGradientBrush>
+            </Grid.Background>
+
+        </Grid>
+        <Rectangle Width="30" Height="3"
+           HorizontalAlignment="Left" VerticalAlignment="Top"
+           Margin="60,70,0,0"
+           Stroke="White" StrokeThickness="10"
+            />
+        <Rectangle Width="30" Height="3"
+           HorizontalAlignment="Left" VerticalAlignment="Top"
+           Margin="60,80,0,0"
+           Stroke="White" StrokeThickness="10"
+            />
+        <Rectangle Width="30" Height="3"
+           HorizontalAlignment="Left" VerticalAlignment="Top"
+           Margin="60,90,0,0"
+           Stroke="White" StrokeThickness="10"
+            />
+        <Image Width="100" Height="100"
+       Source="D:\Flyke_Khang\A_Dashboard\A_Dashboard\images\Flyke logo.png"
+       Stretch="Uniform"
+        Margin="142,113,1678,851"/>
+
+        <Rectangle Width="324" Height="1"
+           HorizontalAlignment="Left" VerticalAlignment="Top"
+           Margin="30,283,0,0"
+           Stroke="White" StrokeThickness="10"
+            />
+
+
+        <Button Width="324" Height="72"
+        Background="#80FFFFFF" BorderBrush="Transparent"
+        BorderThickness="0" Margin="30,668,1566,324">
+            <!-- Button Content Goes Here -->
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="17.5" >
+
+                    </Setter>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <TextBlock Text="Bảng điều khiển" Width="220" Height="34" Margin="121,334,1579,696"
+                    FontFamily="Raleway" FontSize="28" FontWeight="Medium" LineHeight="34"
+                    Foreground="#FFFFFF"/>
+
+        <TextBlock Text="Trang chủ" Width="220" Height="34" Margin="121,440,1579,590"
+                    FontFamily="Raleway" FontSize="28" FontWeight="Medium" LineHeight="34"
+                    Foreground="#FFFFFF"/>
+
+
+        <TextBlock Text="Tra cứu" Width="220" Height="34" Margin="121,523,1579,507"
+                    FontFamily="Raleway" FontSize="28" FontWeight="Medium" LineHeight="34"
+                    Foreground="#FFFFFF"/>
+
+        <TextBlock Text="Doanh thu" Width="220" Height="34" Margin="121,604,1579,426"
+                    FontFamily="Raleway" FontSize="28" FontWeight="Medium" LineHeight="34"
+                    Foreground="#FFFFFF"/>
+
+        <TextBlock Text="Sửa quy định" Width="220" Height="34" Margin="121,687,1579,343"
+                    FontFamily="Raleway" FontSize="28" FontWeight="Medium" LineHeight="34"
+                    Foreground="#FFFFFF"/>
+
+        <TextBlock Text="Đăng xuất" Width="220" Height="34" Margin="121,970,1579,60"
+                    FontFamily="Raleway" FontSize="28" FontWeight="Medium" LineHeight="34"
+                    Foreground="#FFFFFF"/>
+
+        <TextBlock Text="THAY ĐỔI QUY ĐỊNH" HorizontalAlignment="Left" VerticalAlignment="Top" Width="667" Height="73"
+                     Margin="444,70,0,0" FontFamily="Raleway" FontWeight="ExtraBold" FontSize="60"
+                     >
+            <TextBlock.Effect>
+                <DropShadowEffect Color="#FFFFFF" Direction="0" ShadowDepth="4" BlurRadius="10"/>
+            </TextBlock.Effect>
+            <TextBlock.Foreground>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                    <GradientStop Color="#FB4A4A" Offset="0" />
+                    <GradientStop Color="#2027CC" Offset="1.0333" />
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+
+        </TextBlock>
+        <Image Width="30" Height="30"
+       Source="D:\Flyke_Khang\A_Home_to_LCB\A_Home_to_LCB\images\airplay.png"
+       Stretch="Uniform"
+        Margin="67,336,1823,698" RenderTransformOrigin="0.6,0.374"/>
+
+        <Image Width="30" Height="30"
+       Source="D:\Flyke_Khang\A_Home_to_LCB\A_Home_to_LCB\images\Group 19.png"
+       Stretch="Uniform"
+        Margin="66,440,1824,594" RenderTransformOrigin="0.6,0.374"/>
+
+        <Image Width="30" Height="30"
+       Source="D:\Flyke_Khang\A_Home_to_LCB\A_Home_to_LCB\images\kinhlup.png"
+       Stretch="Uniform"
+        Margin="67,527,1823,507" RenderTransformOrigin="0.6,0.374"/>
+
+        <Image Width="30" Height="30"
+       Source="D:\Flyke_Khang\A_Home_to_LCB\A_Home_to_LCB\images\barchart.png"
+       Stretch="Uniform"
+        Margin="67,606,1823,428" RenderTransformOrigin="0.6,0.374"/>
+
+        <Image Width="30" Height="30"
+       Source="D:\Flyke_Khang\A_Home_to_LCB\A_Home_to_LCB\images\suaquydinh.png"
+       Stretch="Uniform"
+        Margin="67,689,1823,345" RenderTransformOrigin="0.6,0.374"/>
+
+        <Image Width="30" Height="30"
+       Source="D:\Flyke_Khang\A_Home_to_LCB\A_Home_to_LCB\images\dangxuat.png"
+       Stretch="Uniform"
+        Margin="67,972,1823,62" RenderTransformOrigin="0.6,0.374"/>
+
+        <Image Width="30" Height="30"
+       Source="D:\Flyke_Khang\A_Home_to_LCB\A_Home_to_LCB\images\dangxuat.png"
+       Stretch="Uniform"
+        Margin="67,972,1823,62" RenderTransformOrigin="0.6,0.374"/>
+
+
+        <TextBlock Text="Chủ nhật, ngày 01 tháng 01 năm 2023" HorizontalAlignment="Left" VerticalAlignment="Top" Width="528" Height="70"
+                     Margin="1414,75,0,0" FontFamily="Raleway" FontWeight="Normal" FontSize="18"
+                     >
+            <TextBlock.Effect>
+                <DropShadowEffect Color="#FFFFFF" Direction="0" ShadowDepth="4" BlurRadius="10"/>
+            </TextBlock.Effect>
+            <TextBlock.Foreground>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                    <GradientStop Color="#FB4A4A" Offset="0" />
+                    <GradientStop Color="#2027CC" Offset="1.0333" />
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+
+        </TextBlock>
+
+        <TextBlock Text="Chào mừng Admin T đã trở lại Flyke!" Width="504" Height="35" Margin="1225,100,191,929"
+                    FontFamily="Raleway" FontSize="30" FontWeight="Medium" LineHeight="34"
+                    Foreground="Black"/>
+
+        <Border Width="1005" Height="476" Margin="444,208,471,380"
+        Background="#FFFFFF"  
+        CornerRadius="15">
+            <!-- Content goes here -->
+            <Border.BorderBrush>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                    <GradientStop Color="#FB4A4A" Offset="0" />
+                    <GradientStop Color="#2027CC" Offset="1" />
+                </LinearGradientBrush>
+            </Border.BorderBrush>
+
+            <Border.BorderThickness>
+                <Thickness>5</Thickness>
+            </Border.BorderThickness>
+        </Border>
+
+        <TextBlock Text="Mã chuyến bay"
+           Width="201"
+           Height="35"
+           Margin="478,249,0,0"
+           FontFamily="Raleway"
+           FontStyle="Normal"
+           FontWeight="Medium"
+           FontSize="28"
+           LineHeight="33"
+           HorizontalAlignment="Left"
+           VerticalAlignment="Top">
+            <TextBlock.Foreground>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                    <GradientStop Color="#FB4A4A" Offset="0" />
+                    <GradientStop Color="#2027CC" Offset="1" />
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+
+        <TextBlock Text="SL ghế hạng 2"
+           Width="201"
+           Height="35"
+           Margin="997,464,0,0"
+           FontFamily="Raleway"
+           FontStyle="Normal"
+           FontWeight="Medium"
+           FontSize="28"
+           LineHeight="33"
+           HorizontalAlignment="Left"
+           VerticalAlignment="Top">
+            <TextBlock.Foreground>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                    <GradientStop Color="#FB4A4A" Offset="0" />
+                    <GradientStop Color="#2027CC" Offset="1" />
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+
+        <TextBlock Text="Thời gian bay"
+           Width="201"
+           Height="35"
+           Margin="997,394,0,0"
+           FontFamily="Raleway"
+           FontStyle="Normal"
+           FontWeight="Medium"
+           FontSize="28"
+           LineHeight="33"
+           HorizontalAlignment="Left"
+           VerticalAlignment="Top">
+            <TextBlock.Foreground>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                    <GradientStop Color="#FB4A4A" Offset="0" />
+                    <GradientStop Color="#2027CC" Offset="1" />
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+
+        <TextBlock Text="Sân bay đến"
+           Width="201"
+           Height="36"
+           Margin="997,322,0,0"
+           FontFamily="Raleway"
+           FontStyle="Normal"
+           FontWeight="Medium"
+           FontSize="28"
+           LineHeight="33"
+           HorizontalAlignment="Left"
+           VerticalAlignment="Top">
+            <TextBlock.Foreground>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                    <GradientStop Color="#FB4A4A" Offset="0" />
+                    <GradientStop Color="#2027CC" Offset="1" />
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+
+        <TextBlock Text="Giá vé"
+           Width="202"
+           Height="35"
+           Margin="996,252,0,0"
+           FontFamily="Raleway"
+           FontStyle="Normal"
+           FontWeight="Medium"
+           FontSize="28"
+           LineHeight="33"
+           HorizontalAlignment="Left"
+           VerticalAlignment="Top">
+            <TextBlock.Foreground>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                    <GradientStop Color="#FB4A4A" Offset="0" />
+                    <GradientStop Color="#2027CC" Offset="1" />
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+
+        <TextBlock Text="SL ghế hạng 1"
+           Width="201"
+           Height="35"
+           Margin="478,464,0,0"
+           FontFamily="Raleway"
+           FontStyle="Normal"
+           FontWeight="Medium"
+           FontSize="28"
+           LineHeight="33"
+           HorizontalAlignment="Left"
+           VerticalAlignment="Top">
+            <TextBlock.Foreground>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                    <GradientStop Color="#FB4A4A" Offset="0" />
+                    <GradientStop Color="#2027CC" Offset="1" />
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+
+        <TextBlock Text="Ngày - giờ"
+           Width="200"
+           Height="34"
+           Margin="479,391,0,0"
+           FontFamily="Raleway"
+           FontStyle="Normal"
+           FontWeight="Medium"
+           FontSize="28"
+           LineHeight="33"
+           HorizontalAlignment="Left"
+           VerticalAlignment="Top">
+            <TextBlock.Foreground>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                    <GradientStop Color="#FB4A4A" Offset="0" />
+                    <GradientStop Color="#2027CC" Offset="1" />
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+
+        <TextBlock Text="Sân bay đi"
+           Width="201"
+           Height="35"
+           Margin="478,322,0,0"
+           FontFamily="Raleway"
+           FontStyle="Normal"
+           FontWeight="Medium"
+           FontSize="28"
+           LineHeight="33"
+           HorizontalAlignment="Left"
+           VerticalAlignment="Top">
+            <TextBlock.Foreground>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                    <GradientStop Color="#FB4A4A" Offset="0" />
+                    <GradientStop Color="#2027CC" Offset="1" />
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+
+        <Button HorizontalAlignment="Left" VerticalAlignment="Top"
+        Width="200" Height="42"
+        Margin="722,246,0,0"
+        Padding="17.5" Background="Transparent">
+
+
+
+            <Button.BorderBrush>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                    <GradientStop Color="#FB4A4A" Offset="-0.1093" />
+                    <GradientStop Color="#2027CC" Offset="0.9961" />
+                </LinearGradientBrush>
+            </Button.BorderBrush>
+
+            <Button.BorderThickness>
+                <Thickness>3</Thickness>
+            </Button.BorderThickness>
+
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="10" >
+
+                    </Setter>
+                </Style>
+            </Button.Resources>
+        </Button>
+
+        <Button HorizontalAlignment="Left" VerticalAlignment="Top"
+        Width="200" Height="42"
+        Margin="722,318,0,0"
+        Padding="17.5" Background="Transparent">
+
+
+
+            <Button.BorderBrush>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                    <GradientStop Color="#FB4A4A" Offset="-0.1093" />
+                    <GradientStop Color="#2027CC" Offset="0.9961" />
+                </LinearGradientBrush>
+            </Button.BorderBrush>
+
+            <Button.BorderThickness>
+                <Thickness>3</Thickness>
+            </Button.BorderThickness>
+
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="10" >
+
+                    </Setter>
+                </Style>
+            </Button.Resources>
+        </Button>
+
+        <Button HorizontalAlignment="Left" VerticalAlignment="Top"
+        Width="200" Height="42"
+        Margin="1225,460,0,0"
+        Padding="17.5" Background="Transparent">
+
+
+
+            <Button.BorderBrush>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                    <GradientStop Color="#FB4A4A" Offset="-0.1093" />
+                    <GradientStop Color="#2027CC" Offset="0.9961" />
+                </LinearGradientBrush>
+            </Button.BorderBrush>
+
+            <Button.BorderThickness>
+                <Thickness>3</Thickness>
+            </Button.BorderThickness>
+
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="10" >
+
+                    </Setter>
+                </Style>
+            </Button.Resources>
+        </Button>
+
+        <Button HorizontalAlignment="Left" VerticalAlignment="Top"
+        Width="200" Height="42"
+        Margin="1225,390,0,0"
+        Padding="17.5" Background="Transparent">
+
+
+
+            <Button.BorderBrush>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                    <GradientStop Color="#FB4A4A" Offset="-0.1093" />
+                    <GradientStop Color="#2027CC" Offset="0.9961" />
+                </LinearGradientBrush>
+            </Button.BorderBrush>
+
+            <Button.BorderThickness>
+                <Thickness>3</Thickness>
+            </Button.BorderThickness>
+
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="10" >
+
+                    </Setter>
+                </Style>
+            </Button.Resources>
+        </Button>
+
+        <Button HorizontalAlignment="Left" VerticalAlignment="Top"
+        Width="200" Height="42"
+        Margin="1225,318,0,0"
+        Padding="17.5" Background="Transparent">
+
+
+
+            <Button.BorderBrush>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                    <GradientStop Color="#FB4A4A" Offset="-0.1093" />
+                    <GradientStop Color="#2027CC" Offset="0.9961" />
+                </LinearGradientBrush>
+            </Button.BorderBrush>
+
+            <Button.BorderThickness>
+                <Thickness>3</Thickness>
+            </Button.BorderThickness>
+
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="10" >
+
+                    </Setter>
+                </Style>
+            </Button.Resources>
+        </Button>
+
+        <Button HorizontalAlignment="Left" VerticalAlignment="Top"
+        Width="200" Height="42"
+        Margin="1225,248,0,0"
+        Padding="17.5" Background="Transparent">
+
+
+
+            <Button.BorderBrush>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                    <GradientStop Color="#FB4A4A" Offset="-0.1093" />
+                    <GradientStop Color="#2027CC" Offset="0.9961" />
+                </LinearGradientBrush>
+            </Button.BorderBrush>
+
+            <Button.BorderThickness>
+                <Thickness>3</Thickness>
+            </Button.BorderThickness>
+
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="10" >
+
+                    </Setter>
+                </Style>
+            </Button.Resources>
+        </Button>
+
+        <Button HorizontalAlignment="Left" VerticalAlignment="Top"
+        Width="200" Height="42"
+        Margin="722,457,0,0"
+        Padding="17.5" Background="Transparent">
+
+
+
+            <Button.BorderBrush>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                    <GradientStop Color="#FB4A4A" Offset="-0.1093" />
+                    <GradientStop Color="#2027CC" Offset="0.9961" />
+                </LinearGradientBrush>
+            </Button.BorderBrush>
+
+            <Button.BorderThickness>
+                <Thickness>3</Thickness>
+            </Button.BorderThickness>
+
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="10" >
+
+                    </Setter>
+                </Style>
+            </Button.Resources>
+        </Button>
+
+        <Button HorizontalAlignment="Left" VerticalAlignment="Top"
+        Width="200" Height="42"
+        Margin="722,387,0,0"
+        Padding="17.5" Background="Transparent">
+
+
+
+            <Button.BorderBrush>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                    <GradientStop Color="#FB4A4A" Offset="-0.1093" />
+                    <GradientStop Color="#2027CC" Offset="0.9961" />
+                </LinearGradientBrush>
+            </Button.BorderBrush>
+
+            <Button.BorderThickness>
+                <Thickness>3</Thickness>
+            </Button.BorderThickness>
+
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="10" >
+
+                    </Setter>
+                </Style>
+            </Button.Resources>
+        </Button>
+
+
+        <TextBlock Text="PL1123"
+           Width="103"
+           Height="34"
+           Margin="747,252,0,0"
+           FontFamily="Raleway"
+           FontStyle="Normal"
+           FontWeight="Normal"
+           FontSize="28"
+           LineHeight="33"
+           HorizontalAlignment="Left"
+           VerticalAlignment="Top"
+           Foreground="#263238"/>
+
+        <TextBlock Text="TSN"
+           Width="103"
+           Height="36"
+           Margin="747,326,0,0"
+           FontFamily="Raleway"
+           FontStyle="Normal"
+           FontWeight="Normal"
+           FontSize="28"
+           LineHeight="33"
+           HorizontalAlignment="Left"
+           VerticalAlignment="Top"
+           Foreground="#263238"/>
+
+        <TextBlock Text="14:00 01/05/23"
+           Width="186"
+           Height="28"
+           Margin="729,395,0,0"
+           FontFamily="Raleway"
+           FontStyle="Normal"
+           FontWeight="Normal"
+           FontSize="28"
+           LineHeight="33"
+           HorizontalAlignment="Left"
+           VerticalAlignment="Top"
+           Foreground="#263238"/>
+
+        <TextBlock Text="60"
+           Width="186"
+           Height="28"
+           Margin="736,465,0,0"
+           FontFamily="Raleway"
+           FontStyle="Normal"
+           FontWeight="Normal"
+           FontSize="28"
+           LineHeight="33"
+           HorizontalAlignment="Left"
+           VerticalAlignment="Top"
+           Foreground="#263238"/>
+
+        <TextBlock Text="1.200.000 VNĐ"
+           Width="186"
+           Height="28"
+           Margin="1239,253,0,0"
+           FontFamily="Raleway"
+           FontStyle="Normal"
+           FontWeight="Normal"
+           FontSize="28"
+           LineHeight="33"
+           HorizontalAlignment="Left"
+           VerticalAlignment="Top"
+           Foreground="#263238"/>
+
+        <TextBlock Text="HNB"
+           Width="186"
+           Height="28"
+           Margin="1239,326,0,0"
+           FontFamily="Raleway"
+           FontStyle="Normal"
+           FontWeight="Normal"
+           FontSize="28"
+           LineHeight="33"
+           HorizontalAlignment="Left"
+           VerticalAlignment="Top"
+           Foreground="#263238"/>
+
+
+        <TextBlock Text="120 phút"
+           Width="186"
+           Height="28"
+           Margin="1239,398,0,0"
+           FontFamily="Raleway"
+           FontStyle="Normal"
+           FontWeight="Normal"
+           FontSize="28"
+           LineHeight="33"
+           HorizontalAlignment="Left"
+           VerticalAlignment="Top"
+           Foreground="#263238"/>
+
+        <TextBlock Text="40"
+           Width="186"
+           Height="28"
+           Margin="1239,464,0,0"
+           FontFamily="Raleway"
+           FontStyle="Normal"
+           FontWeight="Normal"
+           FontSize="28"
+           LineHeight="33"
+           HorizontalAlignment="Left"
+           VerticalAlignment="Top"
+           Foreground="#263238"/>
+
+
+        <Button HorizontalAlignment="Left" VerticalAlignment="Top"
+        Width="300" Height="60"
+        Margin="477,569,0,0"
+        Padding="17.5">
+            <Button.Background>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                    <GradientStop Color="#FB4A4A" Offset="-0.1093" />
+                    <GradientStop Color="#2027CC" Offset="0.9961" />
+                </LinearGradientBrush>
+            </Button.Background>
+
+            <Button.BorderBrush>
+                <SolidColorBrush Color="#00000000" />
+            </Button.BorderBrush>
+
+            <Button.BorderThickness>
+                <Thickness>0</Thickness>
+            </Button.BorderThickness>
+
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="10" >
+
+                    </Setter>
+                </Style>
+            </Button.Resources>
+        </Button>
+
+        <TextBlock
+           FontFamily="Raleway" FontWeight="Normal" FontSize="28" LineHeight="60"
+           TextAlignment="Center"
+           Foreground="#FFFFFF"
+           Text="Xem lịch sử chỉnh sửa" Margin="450,581,1116,448" Height="35" />
+
+        <Button HorizontalAlignment="Left" VerticalAlignment="Top"
+        Width="120" Height="60"
+        Margin="1305,569,0,0"
+        Padding="17.5">
+            <Button.Background>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                    <GradientStop Color="#FB4A4A" Offset="-0.1093" />
+                    <GradientStop Color="#2027CC" Offset="0.9961" />
+                </LinearGradientBrush>
+            </Button.Background>
+
+            <Button.BorderBrush>
+                <SolidColorBrush Color="#00000000" />
+            </Button.BorderBrush>
+
+            <Button.BorderThickness>
+                <Thickness>0</Thickness>
+            </Button.BorderThickness>
+
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="10" >
+
+                    </Setter>
+                </Style>
+            </Button.Resources>
+        </Button>
+
+        <TextBlock
+           FontFamily="Raleway" FontWeight="Normal" FontSize="28" LineHeight="60"
+           TextAlignment="Center"
+           Foreground="#FFFFFF"
+           Text="Lưu" Margin="1285,586,475,448" />
+
+    </Grid>
+</Window>

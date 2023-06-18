@@ -27,4 +27,9 @@
     <PackageReference Include="Z.EntityFramework.Extensions" Version="7.22.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="ViewModels\" />
+  </ItemGroup>
+
 </Project>

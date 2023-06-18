@@ -1,4 +1,60 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
+  <ItemGroup>
+    <Page Update="CustomControls\MesBox_SuccessSave.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CustomControls\MesBox_Quit.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CustomControls\XoaSua_User.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Resources\Styles\Brush.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Resources\Styles\ButtonStyles.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Resources\Styles\NavigateBar.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Resources\Styles\TextStyle.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\A_BangDieuKhien.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\A_TrangChu_BV.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\A_TrangChu_DC.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\A_TrangChu_LCB.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\A_DoanhThu.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\A_ThayDoiQuyDinh.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\A_TraCuu_CB.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\A_TraCuu_HK.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\SignIn.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Onboarding.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\M_TrangChu_LCB.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
 </Project>

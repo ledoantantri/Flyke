@@ -4,6 +4,9 @@
              xmlns:local="clr-namespace:Flyke"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <ResourceDictionary Source="/Resources/CustomControl/TemplateNavigateBar.xaml"/>
+        <ResourceDictionary Source="/Resources/Styles/TextStyle.xaml" />
+        <ResourceDictionary Source="/Resources/Styles/ButtonStyles.xaml" />
+        <ResourceDictionary Source="/Resources/Styles/Brush.xaml" />
     </Application.Resources>
 </Application>
