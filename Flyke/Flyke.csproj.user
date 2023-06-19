@@ -35,40 +35,40 @@
     <Page Update="Resources\Styles\TextStyle.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Views\A_BangDieuKhien.xaml">
+    <Page Update="Views\Admin\A_BangDieuKhien.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Views\M_DoanhThu.xaml">
+    <Page Update="Views\Manager\M_DoanhThu.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Views\M_ThayDoiQuyDinh.xaml">
+    <Page Update="Views\Manager\M_ThayDoiQuyDinh.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Views\M_TraCuu_CB.xaml">
+    <Page Update="Views\Manager\M_TraCuu_CB.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Views\M_TraCuu_HK.xaml">
+    <Page Update="Views\Manager\M_TraCuu_HK.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Views\A_TrangChu_BV.xaml">
+    <Page Update="Views\Admin\A_TrangChu_BV.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Views\A_TrangChu_DC.xaml">
+    <Page Update="Views\Admin\A_TrangChu_DC.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Views\A_TrangChu_LCB.xaml">
+    <Page Update="Views\Admin\A_TrangChu_LCB.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Views\A_DoanhThu.xaml">
+    <Page Update="Views\Admin\A_DoanhThu.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Views\A_ThayDoiQuyDinh.xaml">
+    <Page Update="Views\Admin\A_ThayDoiQuyDinh.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Views\A_TraCuu_CB.xaml">
+    <Page Update="Views\Admin\A_TraCuu_CB.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Views\A_TraCuu_HK.xaml">
+    <Page Update="Views\Admin\A_TraCuu_HK.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\Z_SignIn.xaml">
@@ -77,19 +77,19 @@
     <Page Update="Views\Z_Onboarding.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Views\M_TrangChu_LCB.xaml">
+    <Page Update="Views\Manager\M_TrangChu_LCB.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Views\S_TrangChu_BV.xaml">
+    <Page Update="Views\Staff\S_TrangChu_BV.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Views\S_TrangChu_DC.xaml">
+    <Page Update="Views\Staff\S_TrangChu_DC.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Views\S_TraCuu_CB.xaml">
+    <Page Update="Views\Staff\S_TraCuu_CB.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Views\S_TraCuu_HK.xaml">
+    <Page Update="Views\Staff\S_TraCuu_HK.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
