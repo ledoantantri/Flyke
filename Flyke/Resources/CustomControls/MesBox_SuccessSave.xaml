@@ -1,11 +1,11 @@
-﻿<Window x:Class="MessBox_SuccessSave.MainWindow"
+﻿<UserControl x:Class="Flyke.Resources.CustomControls.MessBox_SuccessSave"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:MessBox_SuccessSave"
+        xmlns:local="clr-namespace:Flyke.Resources.CustomControls"
         mc:Ignorable="d"
-        Title="MainWindow" Height="162" Width="432">
+             Height="162" Width="432">
     <Grid>
 
         <TextBlock Text="Đã lưu thành công!"
@@ -60,4 +60,4 @@
 
 
     </Grid>
-</Window>
+</UserControl>

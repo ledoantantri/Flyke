@@ -4,9 +4,22 @@
              xmlns:local="clr-namespace:Flyke"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-        <ResourceDictionary Source="/Resources/CustomControl/TemplateNavigateBar.xaml"/>
-        <ResourceDictionary Source="/Resources/Styles/TextStyle.xaml" />
-        <ResourceDictionary Source="/Resources/Styles/ButtonStyles.xaml" />
-        <ResourceDictionary Source="/Resources/Styles/Brush.xaml" />
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                
+                <ResourceDictionary Source="/Resources/Styles/TemplateNavigateBar.xaml"/>
+                
+                <ResourceDictionary Source="/Resources/Styles/TextStyle.xaml" />
+                
+                <ResourceDictionary Source="/Resources/Styles/ButtonStyles.xaml" />
+                
+                <ResourceDictionary Source="/Resources/Styles/Brush.xaml" />
+                
+                <ResourceDictionary Source="/Resources/Styles/HeaderColumn.xaml" />
+                
+                <ResourceDictionary Source="/Resources/Styles/NavigateBar.xaml" />
+                
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>

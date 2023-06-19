@@ -8,7 +8,7 @@
     <Page Update="Resources\CustomControls\MesBox_Quit.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Resources\CustomControls\TemplateNavigateBar.xaml">
+    <Page Update="Resources\Styles\TemplateNavigateBar.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Resources\CustomControls\ThemNhieu.xaml">
