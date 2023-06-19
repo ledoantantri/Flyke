@@ -3138,19 +3138,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\nhatt\\.nuget\\packages\\": {}
+    "C:\\Users\\admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\CSharp\\Flyke\\Flyke\\Flyke.csproj",
+      "projectUniqueName": "D:\\GitHub\\Flyke\\Flyke\\Flyke.csproj",
       "projectName": "Flyke",
-      "projectPath": "F:\\CSharp\\Flyke\\Flyke\\Flyke.csproj",
-      "packagesPath": "C:\\Users\\nhatt\\.nuget\\packages\\",
-      "outputPath": "F:\\CSharp\\Flyke\\Flyke\\obj\\",
+      "projectPath": "D:\\GitHub\\Flyke\\Flyke\\Flyke.csproj",
+      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+      "outputPath": "D:\\GitHub\\Flyke\\Flyke\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\nhatt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3264,7 +3264,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   },
