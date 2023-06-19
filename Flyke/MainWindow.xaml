@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         xmlns:control="clr-namespace:A_Dashboard"
         Title="MainWindow" Height="1080" Width="1920"
-        FontFamily="Railway">
+        FontFamily="Raleway">
 
     <Grid >
 

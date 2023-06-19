@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace A_Dashboard
+namespace Flyke.Views.Admin
 {
     /// <summary>
     /// Interaction logic for UserControl1.xaml
     /// </summary>
-    public partial class UserControl1 : UserControl
+    public partial class A_BangDieuKhien : UserControl
     {
-        public UserControl1()
+        public A_BangDieuKhien()
         {
             InitializeComponent();
         }

@@ -13,16 +13,16 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Sign_in
+namespace Flyke.Views
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Z_SignIn : Window
     {
-        public MainWindow()
+        public Z_SignIn()
         {
             InitializeComponent();
-        }
+        }     
     }
 }

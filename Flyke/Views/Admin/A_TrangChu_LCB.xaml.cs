@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace A_Home_to_LCB
+namespace Flyke.Views.Admin
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class A_TrangChu_LCB : Window
     {
-        public MainWindow()
+        public A_TrangChu_LCB()
         {
             InitializeComponent();
         }

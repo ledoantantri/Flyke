@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace MessBox_SuccessSave
+namespace Flyke.Resources.CustomControls
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class MesBox_SuccessSave : UserControl
     {
-        public MainWindow()
+        public MesBox_SuccessSave()
         {
             InitializeComponent();
         }

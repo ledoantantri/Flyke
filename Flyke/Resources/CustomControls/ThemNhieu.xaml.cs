@@ -12,12 +12,12 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace Flyke_FrontEnd.view
+namespace Flyke.Resources.CustomControls
 {
     /// <summary>
     /// Interaction logic for ThemNhieu.xaml
     /// </summary>
-    public partial class ThemNhieu : Window
+    public partial class ThemNhieu : UserControl
     {
         public ThemNhieu()
         {

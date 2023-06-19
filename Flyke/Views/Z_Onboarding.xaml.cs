@@ -13,21 +13,21 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Onboarding
+namespace Flyke.Views
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Z_Onboarding : Window
     {
-        public MainWindow()
+        public Z_Onboarding()
         {
             InitializeComponent();
         }
 
-        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
-        {
+        //private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        //{
 
-        }
+        //}
     }
 }

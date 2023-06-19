@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace A_RuleChange
+namespace Flyke.Views.Admin
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class A_ThayDoiQuyDinh : Window
     {
-        public MainWindow()
+        public A_ThayDoiQuyDinh()
         {
             InitializeComponent();
         }

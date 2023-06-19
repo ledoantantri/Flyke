@@ -32,3 +32,5 @@ D:\GitHub\Flyke\Flyke\obj\Debug\net6.0-windows\App.g.cs
 D:\GitHub\Flyke\Flyke\obj\Debug\net6.0-windows\Flyke_MarkupCompile.cache
 D:\GitHub\Flyke\Flyke\obj\Debug\net6.0-windows\Flyke_MarkupCompile.lref
 D:\GitHub\Flyke\Flyke\obj\Debug\net6.0-windows\Resources\Styles\TemplateNavigateBar.baml
+D:\GitHub\Flyke\Flyke\obj\Debug\net6.0-windows\Resources\Styles\ButtonStyles.baml
+D:\GitHub\Flyke\Flyke\obj\Debug\net6.0-windows\Resources\Styles\ButtonStyles.g.cs

@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace A_Search_to_CB
+namespace Flyke.Views.Admin
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class A_TraCuu_CB : Window
     {
-        public MainWindow()
+        public A_TraCuu_CB()
         {
             InitializeComponent();
         }

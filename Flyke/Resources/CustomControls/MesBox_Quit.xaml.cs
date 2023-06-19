@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace MesBox_Quit
+namespace Flyke.Resources.CustomControls
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class MesBox_Quit : UserControl
     {
-        public MainWindow()
+        public MesBox_Quit()
         {
             InitializeComponent();
         }

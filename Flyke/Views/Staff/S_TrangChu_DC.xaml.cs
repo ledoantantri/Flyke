@@ -12,14 +12,14 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace Flyke_FrontEnd.view
+namespace Flyke.Views.Staff
 {
     /// <summary>
     /// Interaction logic for S_HomeToDC.xaml
     /// </summary>
-    public partial class S_HomeToDC : Window
+    public partial class S_TrangChu_DC : Window
     {
-        public S_HomeToDC()
+        public S_TrangChu_DC()
         {
             InitializeComponent();
         }

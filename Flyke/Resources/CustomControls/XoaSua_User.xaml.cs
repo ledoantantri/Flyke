@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Xóa_sửa_user_
+namespace Flyke.Resources.CustomControls
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class XoaSua_User : UserControl
     {
-        public MainWindow()
+        public XoaSua_User()
         {
             InitializeComponent();
         }

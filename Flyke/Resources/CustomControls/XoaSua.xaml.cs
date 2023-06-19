@@ -12,12 +12,12 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace Flyke_FrontEnd.view
+namespace Flyke.Resources.CustomControls
 {
     /// <summary>
     /// Interaction logic for XoaSua.xaml
     /// </summary>
-    public partial class XoaSua : Window
+    public partial class XoaSua : UserControl
     {
         public XoaSua()
         {

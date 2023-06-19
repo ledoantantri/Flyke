@@ -12,14 +12,14 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace Flyke_FrontEnd.view
+namespace Flyke.Views.Manager
 {
     /// <summary>
     /// Interaction logic for A_Revenue.xaml
     /// </summary>
-    public partial class A_Revenue : Window
+    public partial class M_DoanhThu : Window
     {
-        public A_Revenue()
+        public M_DoanhThu()
         {
             InitializeComponent();
         }

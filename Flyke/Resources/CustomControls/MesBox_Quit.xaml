@@ -89,7 +89,7 @@
            LineHeight="25"
            TextAlignment="Center"
            Foreground="#FFFFFF"
-           Background="Transparent" Margin="276,95,126,26"/>
+           Background="Transparent" Margin="276,95,126,26" RenderTransformOrigin="0.495,-0.628"/>
 
     </Grid>
 </UserControl>

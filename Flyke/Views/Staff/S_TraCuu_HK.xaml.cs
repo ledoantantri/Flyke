@@ -12,14 +12,14 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace Flyke_FrontEnd.view
+namespace Flyke.Views.Staff
 {
     /// <summary>
     /// Interaction logic for S_SearchToHK.xaml
     /// </summary>
-    public partial class S_SearchToHK : Window
+    public partial class S_TraCuu_HK : Window
     {
-        public S_SearchToHK()
+        public S_TraCuu_HK()
         {
             InitializeComponent();
         }
