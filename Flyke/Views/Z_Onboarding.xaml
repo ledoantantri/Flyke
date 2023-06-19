@@ -27,7 +27,7 @@
         </Grid>
         <Image Width="1920">
             <Image.Source>
-                <BitmapImage DecodePixelWidth="1080"  UriSource="D:\Shenkha_Github\DemoXaml\Background_Flyke.png" />
+                <BitmapImage DecodePixelWidth="1080"  UriSource="D:\Shenkha_Github\Flyke\Flyke\Resources\images\Background_Flyke.png" />
             </Image.Source>
         </Image>
         
