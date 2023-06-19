@@ -55,7 +55,7 @@
                 <Grid>
                   
                     <Image 
-                        Source="/Resources/Images/Icon/Group 19.png"
+                        Source="/Resources/Images/Group 19.png"
                         Width="23" Height="25"
                         Margin="64,468,0,0"
                         HorizontalAlignment="Left" VerticalAlignment="Top" />
@@ -67,7 +67,7 @@
                         Text="Trang chủ" />
 
                     <Image 
-                        Source="/Resources/Images/Icon/kinhlup.png"
+                        Source="/Resources/Images/kinhlup.png"
                         Width="23" Height="25"
                         Margin="62,565,0,0"
                         HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.696,3.882" />
@@ -79,7 +79,7 @@
                         Text="Tra cứu" />
 
                     <Image 
-                        Source="/Resources/Images/Icon/dangxuat.png"
+                        Source="/Resources/Images/dangxuat.png"
                         Width="23" Height="25"
                         Margin="60,980,0,0"
                         HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.696,3.882" />
@@ -128,7 +128,7 @@
                                Margin="958,62,109,967">
                     </TextBlock>
                     <Image 
-                        Source="/Resources/Images/Icon/avatar.png"
+                        Source="/Resources/Images/logo.png"
                         Width="70" Height="70"
                         Margin="0,28,14,0"
                         HorizontalAlignment="Right" VerticalAlignment="Top" RenderTransformOrigin="0.696,3.882" />
@@ -165,7 +165,7 @@
                     <TextBlock Text="Tìm kiếm ở đây..." FontSize="30" FontWeight="Normal" Foreground="Gray" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="38,0,0,0" />
 
                 </Border>
-                <Image Source="/Resources/Images/Icon/kinhlup2.png" Margin="1439,181,57,844" RenderTransformOrigin="0.3,-1.261"
+                <Image Source="/Resources/Images/KinhLup_Gradient.png" Margin="1439,181,57,844" RenderTransformOrigin="0.3,-1.261"
                                 />
 
             </Grid>

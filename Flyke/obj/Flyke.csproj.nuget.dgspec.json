@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Shenkha_Github\\Flyke\\Flyke\\Flyke.csproj": {}
+    "F:\\CSharp\\Flyke\\Flyke\\Flyke.csproj": {}
   },
   "projects": {
-    "D:\\Shenkha_Github\\Flyke\\Flyke\\Flyke.csproj": {
+    "F:\\CSharp\\Flyke\\Flyke\\Flyke.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Shenkha_Github\\Flyke\\Flyke\\Flyke.csproj",
+        "projectUniqueName": "F:\\CSharp\\Flyke\\Flyke\\Flyke.csproj",
         "projectName": "Flyke",
-        "projectPath": "D:\\Shenkha_Github\\Flyke\\Flyke\\Flyke.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "D:\\Shenkha_Github\\Flyke\\Flyke\\obj\\",
+        "projectPath": "F:\\CSharp\\Flyke\\Flyke\\Flyke.csproj",
+        "packagesPath": "C:\\Users\\nhatt\\.nuget\\packages\\",
+        "outputPath": "F:\\CSharp\\Flyke\\Flyke\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\nhatt\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0-windows7.0"
+          "net6.0-windows"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -115,7 +115,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -127,7 +128,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     }

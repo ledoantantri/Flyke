@@ -9,20 +9,13 @@
 
 
     <Grid>
-        <Grid Width="728" Height="1000" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="1159,0,0,0" Background="#99FFFFFF">
-            <Grid.Effect>
-                <BlurEffect Radius="25" KernelType="Gaussian"/>
-            </Grid.Effect>
-            <Grid.Clip>
-                <RectangleGeometry RadiusX="30" RadiusY="30" Rect="0,0,728,1000"/>
-            </Grid.Clip>
-        </Grid>
-
-        <Path Stretch="Uniform"
-      Fill="White" Stroke="White"
-      StrokeThickness="2"
-      Data="M0,25 L50,0 L50,12.5 L100,12.5 L100,37.5 L50,37.5 L50,50 Z" Margin="1246,117,656,916" />
-        
+        <Image Width="1920">
+            <Image.Source>
+                <BitmapImage
+                    DecodePixelWidth="1080"
+                    UriSource="\Resources\Images\Background_Flyke.png" />
+            </Image.Source>
+        </Image>
         
         <Grid.Background>
             <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
@@ -30,19 +23,33 @@
                 <GradientStop Color="#5659AC" Offset="0.6392" />
                 <GradientStop Color="#070B79" Offset="-0.5" />
             </LinearGradientBrush>
-         
         </Grid.Background>
 
-        <Image Width="1920">
-            <Image.Source>
-            <BitmapImage 
-                    DecodePixelWidth="1080"  
-                    UriSource="D:\GitHub\Flyke\Flyke\Resources\images\Background_Flyke.png" >     
-            <BitmapImage/>
-          </Image.Source>
-        <Image/>
-          
+        <Grid
+            Width="728"
+            Height="1000"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Center" 
+            Margin="1159,0,0,0" 
+            Background="#99FFFFFF">
+            <Grid.Effect>
+                <BlurEffect 
+                    Radius="25" 
+                    KernelType="Gaussian"/>
+            </Grid.Effect>
+            <Grid.Clip>
+                <RectangleGeometry 
+                    RadiusX="30"
+                    RadiusY="30" 
+                    Rect="0,0,728,1000"/>
+            </Grid.Clip>
+        </Grid>
 
+        <Path Stretch="Uniform"
+      Fill="White" Stroke="White"
+      StrokeThickness="2"
+      Data="M0,25 L50,0 L50,12.5 L100,12.5 L100,37.5 L50,37.5 L50,50 Z" Margin="1246,117,656,916" />
+      
             <TextBlock Width="316" Height="33"
            FontFamily="Raleway" FontWeight="Bold" FontSize="32.8125" LineHeight="39"
            TextDecorations="Underline"
@@ -80,8 +87,8 @@
         >
             <Button.Resources>
                 <Style TargetType="Border">
-                            <Setter Property="CornerRadius" Value="17.5" >7 
-                            </Setter>
+                    <Setter Property="CornerRadius" Value="17.5" >
+                    </Setter>
                 </Style>
             </Button.Resources>
         </Button>
