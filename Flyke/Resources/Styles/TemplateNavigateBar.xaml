@@ -3,7 +3,6 @@
     
     <ControlTemplate x:Key="TemplateNagivationBar" TargetType="Border">
         <Border
-            
             x:Name="BorderInfor"
             Width="384"
             CornerRadius="0,20,20,0"

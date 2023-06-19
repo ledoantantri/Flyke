@@ -6,7 +6,7 @@
     <Application.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
-                
+
                 <ResourceDictionary Source="/Resources/Styles/TemplateNavigateBar.xaml"/>
                 
                 <ResourceDictionary Source="/Resources/Styles/TextStyle.xaml" />

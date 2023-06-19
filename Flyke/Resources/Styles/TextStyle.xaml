@@ -28,5 +28,22 @@
         <Setter Property="Foreground" Value="{StaticResource GradientBrush}" />
     </Style>
 
+    <Style x:Key="TextDate" TargetType="TextBlock">
+        <Setter Property="FontFamily" Value="Raleway" />
+        <Setter Property="FontWeight" Value="Normal" />
+        <Setter Property="FontSize" Value="18" />
+        <Setter Property="LineHeight" Value="21.13" />
+        <Setter Property="TextAlignment" Value="Right" />
+        <Setter Property="VerticalAlignment" Value="Top" />
+        <Setter Property="Margin" Value="-114,39,114,0" />
+        <Setter Property="Foreground">
+            <Setter.Value>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                    <GradientStop Offset="0" Color="#FB4A4A" />
+                    <GradientStop Offset="1" Color="#2027CC" />
+                </LinearGradientBrush>
+            </Setter.Value>
+        </Setter>
+    </Style>
 
 </ResourceDictionary>
