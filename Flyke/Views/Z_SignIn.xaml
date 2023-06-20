@@ -9,6 +9,26 @@
 
 
     <Grid>
+
+        <Grid
+                Width="728"
+                Height="1000"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Center" 
+                Margin="1159,0,0,0" 
+                Background="#99FFFFFF">
+            <Grid.Effect>
+                <BlurEffect 
+                        Radius="25" 
+                        KernelType="Gaussian"/>
+            </Grid.Effect>
+            <Grid.Clip>
+                <RectangleGeometry 
+                        RadiusX="30"
+                        RadiusY="30" 
+                        Rect="0,0,728,1000"/>
+            </Grid.Clip>
+        </Grid>
         <Image Width="1920">
             <Image.Source>
                 <BitmapImage
@@ -17,33 +37,9 @@
             </Image.Source>
         </Image>
         
-        <Grid.Background>
-            <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
-                <GradientStop Color="#8C8DA5" Offset="1.0905" />
-                <GradientStop Color="#5659AC" Offset="0.6392" />
-                <GradientStop Color="#070B79" Offset="-0.5" />
-            </LinearGradientBrush>
-        </Grid.Background>
+        
 
-        <Grid
-            Width="728"
-            Height="1000"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Center" 
-            Margin="1159,0,0,0" 
-            Background="#99FFFFFF">
-            <Grid.Effect>
-                <BlurEffect 
-                    Radius="25" 
-                    KernelType="Gaussian"/>
-            </Grid.Effect>
-            <Grid.Clip>
-                <RectangleGeometry 
-                    RadiusX="30"
-                    RadiusY="30" 
-                    Rect="0,0,728,1000"/>
-            </Grid.Clip>
-        </Grid>
+        
 
         <Path Stretch="Uniform"
       Fill="White" Stroke="White"
@@ -146,5 +142,12 @@
            Foreground="#FFFFFF"
            Text="Đăng nhập" Margin="1428,653,298,362" />
 
+        <Grid.Background>
+            <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                <GradientStop Color="#8C8DA5" Offset="1.0905" />
+                <GradientStop Color="#5659AC" Offset="0.6392" />
+                <GradientStop Color="#070B79" Offset="-0.5" />
+            </LinearGradientBrush>
+        </Grid.Background>
     </Grid>
 </Window>

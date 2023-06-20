@@ -18,7 +18,7 @@ namespace Flyke.Views.Admin
     /// <summary>
     /// Interaction logic for UserControl1.xaml
     /// </summary>
-    public partial class A_BangDieuKhien : UserControl
+    public partial class A_BangDieuKhien : Window
     {
         public A_BangDieuKhien()
         {

@@ -120,7 +120,7 @@
                 <TextBlock Text="Xóa thông tin" Style="{StaticResource TextNormal}" />
             </Setter.Value>
         </Setter>
-        <EventSetter Event="Click" Handler="Button_Click"/>
+        <!--<EventSetter Event="Click" Handler="Button_Click"/>-->
     </Style>
     
     <Style x:Key="ButtonGradient4" TargetType="Button">
