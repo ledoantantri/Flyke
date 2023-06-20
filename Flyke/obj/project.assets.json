@@ -3138,19 +3138,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\admin\\.nuget\\packages\\": {}
+    "C:\\Users\\HUNG\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GitHub\\Flyke\\Flyke\\Flyke.csproj",
+      "projectUniqueName": "C:\\Users\\HUNG\\source\\repos\\Flyke\\Flyke\\Flyke.csproj",
       "projectName": "Flyke",
-      "projectPath": "D:\\GitHub\\Flyke\\Flyke\\Flyke.csproj",
-      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "D:\\GitHub\\Flyke\\Flyke\\obj\\",
+      "projectPath": "C:\\Users\\HUNG\\source\\repos\\Flyke\\Flyke\\Flyke.csproj",
+      "packagesPath": "C:\\Users\\HUNG\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\HUNG\\source\\repos\\Flyke\\Flyke\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\HUNG\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

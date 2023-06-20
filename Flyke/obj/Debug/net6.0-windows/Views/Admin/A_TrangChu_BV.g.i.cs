@@ -53,7 +53,7 @@ namespace Flyke.Views.Admin {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Flyke;component/views/admin/a_trangchu_bv.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Flyke;V1.0.0.0;component/views/admin/a_trangchu_bv.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Views\Admin\A_TrangChu_BV.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

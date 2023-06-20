@@ -53,7 +53,7 @@ namespace Flyke.Resources.CustomControls {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Flyke;component/resources/customcontrols/xoasua.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Flyke;V1.0.0.0;component/resources/customcontrols/xoasua.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Resources\CustomControls\XoaSua.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

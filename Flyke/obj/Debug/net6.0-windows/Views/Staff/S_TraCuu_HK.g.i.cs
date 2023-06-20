@@ -61,7 +61,7 @@ namespace Flyke.Views.Staff {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Flyke;component/views/staff/s_tracuu_hk.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Flyke;V1.0.0.0;component/views/staff/s_tracuu_hk.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Views\Staff\S_TraCuu_HK.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

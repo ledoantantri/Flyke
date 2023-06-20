@@ -112,7 +112,8 @@
         <Button HorizontalAlignment="Left" VerticalAlignment="Top"
         Width="308" Height="80"
         Margin="1369,633,0,0"
-        Padding="17.5">
+        Padding="17.5"
+                x:Name="btnSignIn">
             <Button.Background>
                 <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
                     <GradientStop Color="#FB4A4A" Offset="-0.1093" />
