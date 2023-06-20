@@ -241,8 +241,8 @@
                 </TextBlock>
 
                 <TextBox Width="939" Height="43" Margin="530,300,94,721" BorderBrush="Black"
-         Background="#FFFFFF"
-          
+         Background="#FFFFFF" BorderThickness="1"
+          Visibility="Visible"
         >
                     <!--<Button.Resources>
                         <Style TargetType="Border">
