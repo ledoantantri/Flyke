@@ -53,7 +53,7 @@ namespace Flyke.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Flyke;V1.0.0.0;component/views/z_onboarding.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Flyke;component/views/z_onboarding.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Views\Z_Onboarding.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
