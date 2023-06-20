@@ -52,7 +52,7 @@ namespace Flyke.Resources.Styles {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Flyke;component/resources/styles/buttonstyles.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Flyke;V1.0.0.0;component/resources/styles/buttonstyles.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Resources\Styles\ButtonStyles.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

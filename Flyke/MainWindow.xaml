@@ -6,12 +6,24 @@
         xmlns:local="clr-namespace:Flyke"
         mc:Ignorable="d"        
         Title="MainWindow" Height="1080" Width="1920"
-        FontFamily="Raleway">
+        FontFamily="Raleway"
+    SizeToContent="WidthAndHeight"
+    WindowStartupLocation="CenterScreen"
+    WindowStyle="None"
+        x:Name="mainWindow">
+    
+    <Window.Resources>
+        <ScaleTransform x:Key="windowScaleTransform" ScaleX="0.5" ScaleY="0.5" />
+        <BooleanToVisibilityConverter x:Key="BoolToVis" />
+    </Window.Resources>
 
+    <!--<Window.Visibility>
+        <Binding Path="IsViewVisible" Mode="TwoWay" Converter="{StaticResource BoolToVis}"/>
+    </Window.Visibility>-->
+    
     <Grid >
-
-
-        <Grid Width="384" Height="1080"
+        <DockPanel LastChildFill="True">
+            <Grid Width="384" Height="1080"
               HorizontalAlignment="Left" VerticalAlignment="Top"
               >
             <Grid.Background>
@@ -20,478 +32,482 @@
                     <GradientStop Color="#4449CF" Offset="0.941" />
                 </LinearGradientBrush>
             </Grid.Background>
-
-        </Grid>
-        <Rectangle Width="30" Height="3"
+                <Rectangle Width="30" Height="3"
            HorizontalAlignment="Left" VerticalAlignment="Top"
            Margin="60,70,0,0"
            Stroke="White" StrokeThickness="10"
             />
-        <Rectangle Width="30" Height="3"
+                <Rectangle Width="30" Height="3"
            HorizontalAlignment="Left" VerticalAlignment="Top"
            Margin="60,80,0,0"
            Stroke="White" StrokeThickness="10"
             />
-        <Rectangle Width="30" Height="3"
+                <Rectangle Width="30" Height="3"
            HorizontalAlignment="Left" VerticalAlignment="Top"
            Margin="60,90,0,0"
            Stroke="White" StrokeThickness="10"
             />
-        <!--<Image Width="100" Height="100"
+                <!--<Image Width="100" Height="100"
        Source="D:\Flyke_Khang\A_Dashboard\A_Dashboard\images\Flyke logo.png"
        Stretch="Uniform"
         Margin="142,113,1678,851"/>-->
 
-        <Rectangle Width="324" Height="1"
+                <Rectangle Width="324" Height="1"
            HorizontalAlignment="Left" VerticalAlignment="Top"
            Margin="30,283,0,0"
            Stroke="White" StrokeThickness="10"
             />
 
 
-        <Button Width="324" Height="72"
+                <Button Width="324" Height="72"
         Background="#80FFFFFF" BorderBrush="Transparent"
         BorderThickness="0" Margin="30,315,1566,677">
-            <!-- Button Content Goes Here -->
-            <Button.Resources>
-                <Style TargetType="Border">
-                    <Setter Property="CornerRadius" Value="17.5" >
+                    <!-- Button Content Goes Here -->
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="17.5" >
 
-                    </Setter>
-                </Style>
-            </Button.Resources>
-        </Button>
-        <TextBlock Text="Bảng điều khiển" Width="220" Height="34" Margin="121,334,1579,696"
+                            </Setter>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+                <TextBlock Text="Bảng điều khiển" Width="220" Height="34" Margin="121,334,1579,696"
                     FontFamily="Raleway" FontSize="28" FontWeight="Medium" LineHeight="34"
                     Foreground="#FFFFFF"/>
 
-        <TextBlock Text="Trang chủ" Width="220" Height="34" Margin="121,440,1579,590"
+                <TextBlock Text="Trang chủ" Width="220" Height="34" Margin="121,440,1579,590"
                     FontFamily="Raleway" FontSize="28" FontWeight="Medium" LineHeight="34"
                     Foreground="#FFFFFF"/>
 
 
-        <TextBlock Text="Tra cứu" Width="220" Height="34" Margin="121,523,1579,507"
+                <TextBlock Text="Tra cứu" Width="220" Height="34" Margin="121,523,1579,507"
                     FontFamily="Raleway" FontSize="28" FontWeight="Medium" LineHeight="34"
                     Foreground="#FFFFFF"/>
 
-        <TextBlock Text="Doanh thu" Width="220" Height="34" Margin="121,604,1579,426"
+                <TextBlock Text="Doanh thu" Width="220" Height="34" Margin="121,604,1579,426"
                     FontFamily="Raleway" FontSize="28" FontWeight="Medium" LineHeight="34"
                     Foreground="#FFFFFF"/>
 
-        <TextBlock Text="Sửa quy định" Width="220" Height="34" Margin="121,687,1579,343"
+                <TextBlock Text="Sửa quy định" Width="220" Height="34" Margin="121,687,1579,343"
                     FontFamily="Raleway" FontSize="28" FontWeight="Medium" LineHeight="34"
                     Foreground="#FFFFFF"/>
 
-        <TextBlock Text="Đăng xuất" Width="220" Height="34" Margin="121,970,1579,60"
+                <TextBlock Text="Đăng xuất" Width="220" Height="34" Margin="121,970,1579,60"
                     FontFamily="Raleway" FontSize="28" FontWeight="Medium" LineHeight="34"
                     Foreground="#FFFFFF"/>
+            </Grid>
+        
 
-        <TextBlock Text="BẢNG ĐIỀU KHIỂN" HorizontalAlignment="Left" VerticalAlignment="Top" Width="552" Height="73"
-                     Margin="444,70,0,0" FontFamily="Raleway" FontWeight="ExtraBold" FontSize="60"
+            <Grid>
+                <TextBlock Text="BẢNG ĐIỀU KHIỂN" HorizontalAlignment="Left" VerticalAlignment="Top" Width="552" Height="73"
+                     Margin="60,70,0,0" FontFamily="Raleway" FontWeight="ExtraBold" FontSize="60"
                      >
-            <TextBlock.Effect>
-                <DropShadowEffect Color="#FFFFFF" Direction="0" ShadowDepth="4" BlurRadius="10"/>
-            </TextBlock.Effect>
-            <TextBlock.Foreground>
-                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
-                    <GradientStop Color="#FB4A4A" Offset="0" />
-                    <GradientStop Color="#2027CC" Offset="1.0333" />
-                </LinearGradientBrush>
-            </TextBlock.Foreground>
+                    <TextBlock.Effect>
+                        <DropShadowEffect Color="#FFFFFF" Direction="0" ShadowDepth="4" BlurRadius="10"/>
+                    </TextBlock.Effect>
+                    <TextBlock.Foreground>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                            <GradientStop Color="#FB4A4A" Offset="0" />
+                            <GradientStop Color="#2027CC" Offset="1.0333" />
+                        </LinearGradientBrush>
+                    </TextBlock.Foreground>
 
-        </TextBlock>
+                </TextBlock>
 
-        <Button HorizontalAlignment="Left" VerticalAlignment="Top"
+                <Button HorizontalAlignment="Left" VerticalAlignment="Top"
         Width="324" Height="72"
-        Margin="444,175,0,0"
+        Margin="60,175,0,0"
         Padding="17.5">
-            <Button.Background>
-                <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
-                    <GradientStop Color="#FB4A4A" Offset="-0.1093" />
-                    <GradientStop Color="#2027CC" Offset="0.9961" />
-                </LinearGradientBrush>
-            </Button.Background>
+                    <Button.Background>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                            <GradientStop Color="#FB4A4A" Offset="-0.1093" />
+                            <GradientStop Color="#2027CC" Offset="0.9961" />
+                        </LinearGradientBrush>
+                    </Button.Background>
 
-            <Button.BorderBrush>
-                <SolidColorBrush Color="#00000000" />
-            </Button.BorderBrush>
+                    <Button.BorderBrush>
+                        <SolidColorBrush Color="#00000000" />
+                    </Button.BorderBrush>
 
-            <Button.BorderThickness>
-                <Thickness>0</Thickness>
-            </Button.BorderThickness>
+                    <Button.BorderThickness>
+                        <Thickness>0</Thickness>
+                    </Button.BorderThickness>
 
-            <Button.Resources>
-                <Style TargetType="Border">
-                    <Setter Property="CornerRadius" Value="17.5" >
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="17.5" >
 
-                    </Setter>
-                </Style>
-            </Button.Resources>
-        </Button>
-        <TextBlock Width="161" Height="34"
+                            </Setter>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+                <TextBlock Width="161" Height="34"
            FontFamily="Raleway" FontWeight="Normal" FontSize="28" LineHeight="60"
            TextAlignment="Center"
            Foreground="#FFFFFF"
-           Text="Người dùng" Margin="526,195,1234,835" />
+           Text="Người dùng" Margin="140,195,1234,835" />
 
 
-        <TextBlock Text="Chủ nhật, ngày 01 tháng 01 năm 2023" HorizontalAlignment="Left" VerticalAlignment="Top" Width="528" Height="70"
+                <!--<TextBlock Text="Chủ nhật, ngày 01 tháng 01 năm 2023" HorizontalAlignment="Left" VerticalAlignment="Top" Width="528" Height="70"
                      Margin="1414,75,0,0" FontFamily="Raleway" FontWeight="Normal" FontSize="18"
                      >
-            <TextBlock.Effect>
-                <DropShadowEffect Color="#FFFFFF" Direction="0" ShadowDepth="4" BlurRadius="10"/>
-            </TextBlock.Effect>
-            <TextBlock.Foreground>
-                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
-                    <GradientStop Color="#FB4A4A" Offset="0" />
-                    <GradientStop Color="#2027CC" Offset="1.0333" />
-                </LinearGradientBrush>
-            </TextBlock.Foreground>
+                    <TextBlock.Effect>
+                        <DropShadowEffect Color="#FFFFFF" Direction="0" ShadowDepth="4" BlurRadius="10"/>
+                    </TextBlock.Effect>
+                    <TextBlock.Foreground>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                            <GradientStop Color="#FB4A4A" Offset="0" />
+                            <GradientStop Color="#2027CC" Offset="1.0333" />
+                        </LinearGradientBrush>
+                    </TextBlock.Foreground>
 
-        </TextBlock>
+                </TextBlock>-->
 
-        <TextBlock Text="Chào mừng Admin T đã trở lại Flyke!" Width="504" Height="35" Margin="1225,100,191,929"
+                <!--<TextBlock Text="Chào mừng Admin T đã trở lại Flyke!" Width="504" Height="35" Margin="1225,100,191,929"
                     FontFamily="Raleway" FontSize="30" FontWeight="Medium" LineHeight="34"
-                    Foreground="Black"/>
+                    Foreground="Black"/>-->
 
 
 
-        <Button HorizontalAlignment="Left" VerticalAlignment="Top"
+                <Button HorizontalAlignment="Left" VerticalAlignment="Top"
         Width="1005" Height="60"
-        Margin="855,175,0,0"
+        Margin="470,175,0,0"
         Padding="17.5">
-            <Button.Background>
-                <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
-                    <GradientStop Color="#FB4A4A" Offset="-0.1093" />
-                    <GradientStop Color="#2027CC" Offset="0.9961" />
-                </LinearGradientBrush>
-            </Button.Background>
+                    <Button.Background>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                            <GradientStop Color="#FB4A4A" Offset="-0.1093" />
+                            <GradientStop Color="#2027CC" Offset="0.9961" />
+                        </LinearGradientBrush>
+                    </Button.Background>
 
-            <Button.BorderBrush>
-                <SolidColorBrush Color="#00000000" />
-            </Button.BorderBrush>
+                    <Button.BorderBrush>
+                        <SolidColorBrush Color="#00000000" />
+                    </Button.BorderBrush>
 
-            <Button.BorderThickness>
-                <Thickness>0</Thickness>
-            </Button.BorderThickness>
+                    <Button.BorderThickness>
+                        <Thickness>0</Thickness>
+                    </Button.BorderThickness>
 
-            <Button.Resources>
-                <Style TargetType="Border">
-                    <Setter Property="CornerRadius" Value="17.5" >
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="17.5" >
 
-                    </Setter>
-                </Style>
-            </Button.Resources>
-        </Button>
-        <TextBlock Width="579" Height="35"
+                            </Setter>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+                <TextBlock Width="579" Height="35"
            HorizontalAlignment="Left" VerticalAlignment="Top"
-           Margin="922,186,0,0"
+           Margin="550,186,0,0"
            FontFamily="Raleway" FontWeight="Medium" FontSize="38"
            LineHeight="45" TextAlignment="Left"
            Foreground="#FFFFFF">
     <!-- TextBlock Content Goes Here -->
             THÊM NGƯỜI DÙNG
-        </TextBlock>
+                </TextBlock>
 
-        <Grid Width="1004" Height="486"
-      HorizontalAlignment="Left" VerticalAlignment="Top" Margin="855,186,0,0" >
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="191*"/>
-                <ColumnDefinition Width="60*"/>
-            </Grid.ColumnDefinitions>
-            <Border BorderThickness="2" Padding="2" CornerRadius="4" Margin="0,-10,0,10" Grid.ColumnSpan="2">
-                <Border.BorderBrush>
-                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
-                        <GradientStop Color="#FF0000" Offset="0" />
-                        <GradientStop Color="#00FF00" Offset="0.5" />
-                        <GradientStop Color="#0000FF" Offset="1" />
-                    </LinearGradientBrush>
-                </Border.BorderBrush>
-                <!-- Content Goes Here -->
-            </Border>
+                <Grid Width="1004" Height="486"
+      HorizontalAlignment="Left" VerticalAlignment="Top" Margin="470,186,0,0" >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="191*"/>
+                        <ColumnDefinition Width="60*"/>
+                    </Grid.ColumnDefinitions>
+                    <Border BorderThickness="2" Padding="2" CornerRadius="4" Margin="0,-10,0,10" Grid.ColumnSpan="2">
+                        <Border.BorderBrush>
+                            <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                                <GradientStop Color="#FF0000" Offset="0" />
+                                <GradientStop Color="#00FF00" Offset="0.5" />
+                                <GradientStop Color="#0000FF" Offset="1" />
+                            </LinearGradientBrush>
+                        </Border.BorderBrush>
+                        <!-- Content Goes Here -->
+                    </Border>
 
-        </Grid>
+                </Grid>
 
-        <TextBlock Text="Tên đăng nhập" HorizontalAlignment="Left" VerticalAlignment="Top" Width="528" Height="70"
-                     Margin="888,265,0,0" FontFamily="Raleway" FontWeight="Bold" FontSize="28"
+                <TextBlock Text="Tên đăng nhập" HorizontalAlignment="Left" VerticalAlignment="Top" Width="528" Height="70"
+                     Margin="530,265,0,0" FontFamily="Raleway" FontWeight="Bold" FontSize="28"
                      >
-            <TextBlock.Effect>
-                <DropShadowEffect Color="#FFFFFF" Direction="0" ShadowDepth="4" BlurRadius="10"/>
-            </TextBlock.Effect>
-            <TextBlock.Foreground>
-                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
-                    <GradientStop Color="#FB4A4A" Offset="0" />
-                    <GradientStop Color="#2027CC" Offset="1.0333" />
-                </LinearGradientBrush>
-            </TextBlock.Foreground>
+                    <TextBlock.Effect>
+                        <DropShadowEffect Color="#FFFFFF" Direction="0" ShadowDepth="4" BlurRadius="10"/>
+                    </TextBlock.Effect>
+                    <TextBlock.Foreground>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                            <GradientStop Color="#FB4A4A" Offset="0" />
+                            <GradientStop Color="#2027CC" Offset="1.0333" />
+                        </LinearGradientBrush>
+                    </TextBlock.Foreground>
 
-        </TextBlock>
+                </TextBlock>
 
-        <Button Width="939" Height="43" Margin="888,300,94,721"
+                <TextBox Width="939" Height="43" Margin="530,300,94,721" BorderBrush="Black"
          Background="#FFFFFF"
           
         >
-            <Button.Resources>
-                <Style TargetType="Border">
-                    <Setter Property="CornerRadius" Value="17.5" >
+                    <!--<Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="17.5" >
 
-                    </Setter>
-                </Style>
-            </Button.Resources>
+                            </Setter>
+                        </Style>
+                    </Button.Resources>
 
-            <Button.BorderBrush>
-                <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
-                    <GradientStop Color="#FB4A4A" Offset="-0.1093" />
-                    <GradientStop Color="#2027CC" Offset="0.9961" />
-                </LinearGradientBrush>
-            </Button.BorderBrush>
+                    <Button.BorderBrush>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                            <GradientStop Color="#FB4A4A" Offset="-0.1093" />
+                            <GradientStop Color="#2027CC" Offset="0.9961" />
+                        </LinearGradientBrush>
+                    </Button.BorderBrush>
 
-            <Button.BorderThickness>
-                <Thickness>3</Thickness>
-            </Button.BorderThickness>
-        </Button>
+                    <Button.BorderThickness>
+                        <Thickness>3</Thickness>
+                    </Button.BorderThickness>-->
+                </TextBox>
 
-        <TextBlock Text="Mật khẩu" HorizontalAlignment="Left" VerticalAlignment="Top" Width="528" Height="70"
-                     Margin="888,359,0,0" FontFamily="Raleway" FontWeight="Bold" FontSize="28"
+                <TextBlock Text="Mật khẩu" HorizontalAlignment="Left" VerticalAlignment="Top" Width="528" Height="70"
+                     Margin="530,359,0,0" FontFamily="Raleway" FontWeight="Bold" FontSize="28"
                      >
-            <TextBlock.Effect>
-                <DropShadowEffect Color="#FFFFFF" Direction="0" ShadowDepth="4" BlurRadius="10"/>
-            </TextBlock.Effect>
-            <TextBlock.Foreground>
-                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
-                    <GradientStop Color="#FB4A4A" Offset="0" />
-                    <GradientStop Color="#2027CC" Offset="1.0333" />
-                </LinearGradientBrush>
-            </TextBlock.Foreground>
+                    <TextBlock.Effect>
+                        <DropShadowEffect Color="#FFFFFF" Direction="0" ShadowDepth="4" BlurRadius="10"/>
+                    </TextBlock.Effect>
+                    <TextBlock.Foreground>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                            <GradientStop Color="#FB4A4A" Offset="0" />
+                            <GradientStop Color="#2027CC" Offset="1.0333" />
+                        </LinearGradientBrush>
+                    </TextBlock.Foreground>
 
-        </TextBlock>
+                </TextBlock>
 
-        <Button Width="939" Height="43" Margin="888,394,94,627"
+                <TextBox Width="939" Height="43" Margin="530,394,94,627" BorderBrush="Black"
          Background="#FFFFFF"
         
         >
-            <Button.Resources>
-                <Style TargetType="Border">
-                    <Setter Property="CornerRadius" Value="17.5" >
+                    <!--<Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="17.5" >
 
-                    </Setter>
-                </Style>
-            </Button.Resources>
+                            </Setter>
+                        </Style>
+                    </Button.Resources>
 
-            <Button.BorderBrush>
-                <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
-                    <GradientStop Color="#FB4A4A" Offset="-0.1093" />
-                    <GradientStop Color="#2027CC" Offset="0.9961" />
-                </LinearGradientBrush>
-            </Button.BorderBrush>
+                    <Button.BorderBrush>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                            <GradientStop Color="#FB4A4A" Offset="-0.1093" />
+                            <GradientStop Color="#2027CC" Offset="0.9961" />
+                        </LinearGradientBrush>
+                    </Button.BorderBrush>
 
-            <Button.BorderThickness>
-                <Thickness>3</Thickness>
-            </Button.BorderThickness>
+                    <Button.BorderThickness>
+                        <Thickness>3</Thickness>
+                    </Button.BorderThickness>-->
 
-        </Button>
+                </TextBox>
 
-        <TextBlock Text="Phân quyền" HorizontalAlignment="Left" VerticalAlignment="Top" Width="528" Height="70"
-                     Margin="888,455,0,0" FontFamily="Raleway" FontWeight="Bold" FontSize="28"
+                <TextBlock Text="Phân quyền" HorizontalAlignment="Left" VerticalAlignment="Top" Width="528" Height="70"
+                     Margin="530,455,0,0" FontFamily="Raleway" FontWeight="Bold" FontSize="28"
                      >
-            <TextBlock.Effect>
-                <DropShadowEffect Color="#FFFFFF" Direction="0" ShadowDepth="4" BlurRadius="10"/>
-            </TextBlock.Effect>
-            <TextBlock.Foreground>
-                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
-                    <GradientStop Color="#FB4A4A" Offset="0" />
-                    <GradientStop Color="#2027CC" Offset="1.0333" />
-                </LinearGradientBrush>
-            </TextBlock.Foreground>
+                    <TextBlock.Effect>
+                        <DropShadowEffect Color="#FFFFFF" Direction="0" ShadowDepth="4" BlurRadius="10"/>
+                    </TextBlock.Effect>
+                    <TextBlock.Foreground>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                            <GradientStop Color="#FB4A4A" Offset="0" />
+                            <GradientStop Color="#2027CC" Offset="1.0333" />
+                        </LinearGradientBrush>
+                    </TextBlock.Foreground>
 
-        </TextBlock>
-        <TextBlock Text="Quản trị viên" HorizontalAlignment="Left" VerticalAlignment="Top" Width="528" Height="70"
-                     Margin="923,493,0,0" FontFamily="Raleway" FontWeight="Medium" FontSize="28"
+                </TextBlock>
+                <RadioButton Margin="530,493,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="25" Height="25">
+
+                </RadioButton >
+                <TextBlock Text="Quản trị viên" HorizontalAlignment="Left" VerticalAlignment="Top" Width="528" Height="70"
+                     Margin="570,493,0,0" FontFamily="Raleway" FontWeight="Medium" FontSize="28"
                      >
-            <TextBlock.Effect>
-                <DropShadowEffect Color="#FFFFFF" Direction="0" ShadowDepth="4" BlurRadius="10"/>
-            </TextBlock.Effect>
-            <TextBlock.Foreground>
-                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
-                    <GradientStop Color="#FB4A4A" Offset="0" />
-                    <GradientStop Color="#2027CC" Offset="1.0333" />
-                </LinearGradientBrush>
-            </TextBlock.Foreground>
+                    <TextBlock.Effect>
+                        <DropShadowEffect Color="#FFFFFF" Direction="0" ShadowDepth="4" BlurRadius="10"/>
+                    </TextBlock.Effect>
+                    <TextBlock.Foreground>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                            <GradientStop Color="#FB4A4A" Offset="0" />
+                            <GradientStop Color="#2027CC" Offset="1.0333" />
+                        </LinearGradientBrush>
+                    </TextBlock.Foreground>
 
-        </TextBlock>
+                </TextBlock>
 
-        <TextBlock Text="Quản lý" HorizontalAlignment="Left" VerticalAlignment="Top" Width="528" Height="70"
-                     Margin="1224,493,0,0" FontFamily="Raleway" FontWeight="Medium" FontSize="28"
+                <TextBlock Text="Quản lý" HorizontalAlignment="Left" VerticalAlignment="Top" Width="528" Height="70"
+                     Margin="870,493,0,0" FontFamily="Raleway" FontWeight="Medium" FontSize="28"
                      >
-            <TextBlock.Effect>
-                <DropShadowEffect Color="#FFFFFF" Direction="0" ShadowDepth="4" BlurRadius="10"/>
-            </TextBlock.Effect>
-            <TextBlock.Foreground>
-                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
-                    <GradientStop Color="#FB4A4A" Offset="0" />
-                    <GradientStop Color="#2027CC" Offset="1.0333" />
-                </LinearGradientBrush>
-            </TextBlock.Foreground>
+                    <TextBlock.Effect>
+                        <DropShadowEffect Color="#FFFFFF" Direction="0" ShadowDepth="4" BlurRadius="10"/>
+                    </TextBlock.Effect>
+                    <TextBlock.Foreground>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                            <GradientStop Color="#FB4A4A" Offset="0" />
+                            <GradientStop Color="#2027CC" Offset="1.0333" />
+                        </LinearGradientBrush>
+                    </TextBlock.Foreground>
 
-        </TextBlock>
+                </TextBlock>
 
-        <TextBlock Text="Nhân viên bán vé" HorizontalAlignment="Left" VerticalAlignment="Top" Width="528" Height="70"
-                     Margin="1525,493,0,0" FontFamily="Raleway" FontWeight="Medium" FontSize="28"
+                <TextBlock Text="Nhân viên bán vé" HorizontalAlignment="Left" VerticalAlignment="Top" Width="528" Height="70"
+                     Margin="1170,493,0,0" FontFamily="Raleway" FontWeight="Medium" FontSize="28"
                      >
-            <TextBlock.Effect>
-                <DropShadowEffect Color="#FFFFFF" Direction="0" ShadowDepth="4" BlurRadius="10"/>
-            </TextBlock.Effect>
-            <TextBlock.Foreground>
-                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
-                    <GradientStop Color="#FB4A4A" Offset="0" />
-                    <GradientStop Color="#2027CC" Offset="1.0333" />
-                </LinearGradientBrush>
-            </TextBlock.Foreground>
+                    <TextBlock.Effect>
+                        <DropShadowEffect Color="#FFFFFF" Direction="0" ShadowDepth="4" BlurRadius="10"/>
+                    </TextBlock.Effect>
+                    <TextBlock.Foreground>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                            <GradientStop Color="#FB4A4A" Offset="0" />
+                            <GradientStop Color="#2027CC" Offset="1.0333" />
+                        </LinearGradientBrush>
+                    </TextBlock.Foreground>
 
-        </TextBlock>
+                </TextBlock>
 
-        <CheckBox Content="Check me!" IsChecked="True" Margin="879,483,987,523">
-            <CheckBox.Style>
-                <Style TargetType="CheckBox">
-                    <Setter Property="Template">
-                        <Setter.Value>
-                            <ControlTemplate TargetType="CheckBox">
-                                <Grid>
-                                    <Ellipse x:Name="Border" Width="20" Height="20" Stroke="Black" StrokeThickness="2"  >
-                                        <Ellipse.Fill>
-                                            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
-                                                <GradientStop Color="#FB4A4A" Offset="0" />
-                                                <GradientStop Color="#2027CC" Offset="1.0333" />
-                                            </LinearGradientBrush>
-                                        </Ellipse.Fill>
-                                    </Ellipse>
+                <CheckBox Content="Check me!" IsChecked="True" Margin="879,483,987,523">
+                    <CheckBox.Style>
+                        <Style TargetType="CheckBox">
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="CheckBox">
+                                        <Grid>
+                                            <Ellipse x:Name="Border" Width="20" Height="20" Stroke="Black" StrokeThickness="2"  >
+                                                <Ellipse.Fill>
+                                                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                                                        <GradientStop Color="#FB4A4A" Offset="0" />
+                                                        <GradientStop Color="#2027CC" Offset="1.0333" />
+                                                    </LinearGradientBrush>
+                                                </Ellipse.Fill>
+                                            </Ellipse>
 
-                                </Grid>
+                                        </Grid>
 
-                            </ControlTemplate>
-                        </Setter.Value>
-                    </Setter>
-                </Style>
-            </CheckBox.Style>
-        </CheckBox>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+                    </CheckBox.Style>
+                </CheckBox>
 
-        <CheckBox Content="Check me!" IsChecked="True" Margin="1172,483,686,527">
-            <CheckBox.Style>
-                <Style TargetType="CheckBox">
-                    <Setter Property="Template">
-                        <Setter.Value>
-                            <ControlTemplate TargetType="CheckBox">
-                                <Grid>
-                                    <Ellipse x:Name="Border" Width="20" Height="20" Stroke="Black" StrokeThickness="2" Fill="White" />
-                                    <Path x:Name="Checkmark" Stroke="Green" StrokeThickness="2" Data="M5,10 L8,13 L14,7" Visibility="Collapsed" />
-                                </Grid>
-                                <ControlTemplate.Triggers>
-                                    <Trigger Property="IsChecked" Value="True">
-                                        <Setter TargetName="Checkmark" Property="Visibility" Value="Visible" />
-                                    </Trigger>
-                                    <Trigger Property="IsEnabled" Value="False">
-                                        <Setter TargetName="Border" Property="Fill" Value="LightGray" />
-                                    </Trigger>
-                                </ControlTemplate.Triggers>
-                            </ControlTemplate>
-                        </Setter.Value>
-                    </Setter>
-                </Style>
-            </CheckBox.Style>
-        </CheckBox>
+                <CheckBox Content="Check me!" IsChecked="True" Margin="1172,483,686,527">
+                    <CheckBox.Style>
+                        <Style TargetType="CheckBox">
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="CheckBox">
+                                        <Grid>
+                                            <Ellipse x:Name="Border" Width="20" Height="20" Stroke="Black" StrokeThickness="2" Fill="White" />
+                                            <Path x:Name="Checkmark" Stroke="Green" StrokeThickness="2" Data="M5,10 L8,13 L14,7" Visibility="Collapsed" />
+                                        </Grid>
+                                        <ControlTemplate.Triggers>
+                                            <Trigger Property="IsChecked" Value="True">
+                                                <Setter TargetName="Checkmark" Property="Visibility" Value="Visible" />
+                                            </Trigger>
+                                            <Trigger Property="IsEnabled" Value="False">
+                                                <Setter TargetName="Border" Property="Fill" Value="LightGray" />
+                                            </Trigger>
+                                        </ControlTemplate.Triggers>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+                    </CheckBox.Style>
+                </CheckBox>
 
-        <CheckBox Content="Check me!" IsChecked="True" Margin="1465,470,385,514">
-            <CheckBox.Style>
-                <Style TargetType="CheckBox">
-                    <Setter Property="Template">
-                        <Setter.Value>
-                            <ControlTemplate TargetType="CheckBox">
-                                <Grid>
-                                    <Ellipse x:Name="Border" Width="20" Height="20" Stroke="Black" StrokeThickness="2" Fill="White" />
-                                    <Path x:Name="Checkmark" Stroke="Green" StrokeThickness="2" Data="M5,10 L8,13 L14,7" Visibility="Collapsed" />
-                                </Grid>
-                                <ControlTemplate.Triggers>
-                                    <Trigger Property="IsChecked" Value="True">
-                                        <Setter TargetName="Checkmark" Property="Visibility" Value="Visible" />
-                                    </Trigger>
-                                    <Trigger Property="IsEnabled" Value="False">
-                                        <Setter TargetName="Border" Property="Fill" Value="LightGray" />
-                                    </Trigger>
-                                </ControlTemplate.Triggers>
-                            </ControlTemplate>
-                        </Setter.Value>
-                    </Setter>
-                </Style>
-            </CheckBox.Style>
-        </CheckBox>
+                <CheckBox Content="Check me!" IsChecked="True" Margin="1465,470,385,514">
+                    <CheckBox.Style>
+                        <Style TargetType="CheckBox">
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="CheckBox">
+                                        <Grid>
+                                            <Ellipse x:Name="Border" Width="20" Height="20" Stroke="Black" StrokeThickness="2" Fill="White" />
+                                            <Path x:Name="Checkmark" Stroke="Green" StrokeThickness="2" Data="M5,10 L8,13 L14,7" Visibility="Collapsed" />
+                                        </Grid>
+                                        <ControlTemplate.Triggers>
+                                            <Trigger Property="IsChecked" Value="True">
+                                                <Setter TargetName="Checkmark" Property="Visibility" Value="Visible" />
+                                            </Trigger>
+                                            <Trigger Property="IsEnabled" Value="False">
+                                                <Setter TargetName="Border" Property="Fill" Value="LightGray" />
+                                            </Trigger>
+                                        </ControlTemplate.Triggers>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+                    </CheckBox.Style>
+                </CheckBox>
 
 
-        <Button HorizontalAlignment="Left" VerticalAlignment="Top"
+                <Button HorizontalAlignment="Left" VerticalAlignment="Top"
         Width="120" Height="60"
         Margin="888,568,0,0"
         Padding="17.5">
-            <Button.Background>
-                <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
-                    <GradientStop Color="#FB4A4A" Offset="-0.1093" />
-                    <GradientStop Color="#2027CC" Offset="0.9961" />
-                </LinearGradientBrush>
-            </Button.Background>
+                    <Button.Background>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                            <GradientStop Color="#FB4A4A" Offset="-0.1093" />
+                            <GradientStop Color="#2027CC" Offset="0.9961" />
+                        </LinearGradientBrush>
+                    </Button.Background>
 
-            <Button.BorderBrush>
-                <SolidColorBrush Color="#00000000" />
-            </Button.BorderBrush>
+                    <Button.BorderBrush>
+                        <SolidColorBrush Color="#00000000" />
+                    </Button.BorderBrush>
 
-            <Button.BorderThickness>
-                <Thickness>0</Thickness>
-            </Button.BorderThickness>
+                    <Button.BorderThickness>
+                        <Thickness>0</Thickness>
+                    </Button.BorderThickness>
 
-            <Button.Resources>
-                <Style TargetType="Border">
-                    <Setter Property="CornerRadius" Value="17.5" >
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="17.5" >
 
-                    </Setter>
-                </Style>
-            </Button.Resources>
-        </Button>
+                            </Setter>
+                        </Style>
+                    </Button.Resources>
+                </Button>
 
-        <Button HorizontalAlignment="Left" VerticalAlignment="Top"
+                <Button HorizontalAlignment="Left" VerticalAlignment="Top"
         Width="120" Height="60"
         Margin="1707,568,0,0"
         Padding="17.5">
-            <Button.Background>
-                <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
-                    <GradientStop Color="#FB4A4A" Offset="-0.1093" />
-                    <GradientStop Color="#2027CC" Offset="0.9961" />
-                </LinearGradientBrush>
-            </Button.Background>
+                    <Button.Background>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                            <GradientStop Color="#FB4A4A" Offset="-0.1093" />
+                            <GradientStop Color="#2027CC" Offset="0.9961" />
+                        </LinearGradientBrush>
+                    </Button.Background>
 
-            <Button.BorderBrush>
-                <SolidColorBrush Color="#00000000" />
-            </Button.BorderBrush>
+                    <Button.BorderBrush>
+                        <SolidColorBrush Color="#00000000" />
+                    </Button.BorderBrush>
 
-            <Button.BorderThickness>
-                <Thickness>0</Thickness>
-            </Button.BorderThickness>
+                    <Button.BorderThickness>
+                        <Thickness>0</Thickness>
+                    </Button.BorderThickness>
 
-            <Button.Resources>
-                <Style TargetType="Border">
-                    <Setter Property="CornerRadius" Value="17.5" >
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="17.5" >
 
-                    </Setter>
-                </Style>
-            </Button.Resources>
-        </Button>
+                            </Setter>
+                        </Style>
+                    </Button.Resources>
+                </Button>
 
 
-        <TextBlock Text="Xóa/sửa" Width="220" Height="34" Margin="906,583,794,447"
+                <TextBlock Text="Xóa/sửa" Width="220" Height="34" Margin="906,583,794,447"
                     FontFamily="Raleway" FontSize="23" FontWeight="Medium" LineHeight="34"
                     Foreground="#FFFFFF"/>
 
-        <TextBlock Text="Lưu" Width="220" Height="34" Margin="1745,583,-45,447"
+                <TextBlock Text="Lưu" Width="220" Height="34" Margin="1745,583,-45,447"
                     FontFamily="Raleway" FontSize="23" FontWeight="Medium" LineHeight="34"
                     Foreground="#FFFFFF"/>
 
-        <TextBox Text="ledoantantri123" 
+                <!--<TextBox Text="ledoantantri123" 
          Width="204"
          Height="35"
          Margin="908,305,0,0"
@@ -510,7 +526,7 @@
          HorizontalContentAlignment="Left"
          />
 
-        <TextBox Text="ledoantantri123" 
+                <TextBox Text="ledoantantri123" 
          Width="204"
          Height="35"
          Margin="906,398,0,0"
@@ -527,9 +543,9 @@
          TextAlignment="Left"
          VerticalContentAlignment="Center"
          HorizontalContentAlignment="Left"
-         />
+         />-->
 
-        <!--<Image Width="30" Height="30"
+                <!--<Image Width="30" Height="30"
        Source="D:\Flyke_Khang\A_Home_to_LCB\A_Home_to_LCB\images\airplay.png"
        Stretch="Uniform"
         Margin="67,336,1823,698" RenderTransformOrigin="0.6,0.374"/>
@@ -563,6 +579,7 @@
        Source="images\dangxuat.png"
        Stretch="Uniform"
         Margin="67,972,1823,62" RenderTransformOrigin="0.6,0.374"/>-->
-
+            </Grid>
+        </DockPanel>
     </Grid>
 </Window>

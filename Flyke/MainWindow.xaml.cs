@@ -12,6 +12,12 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Data;
+using System.Data.SqlClient;
+using Flyke.Views;
+using Flyke.Resources;
+using System.Windows.Threading;
+using System.Globalization;
 
 namespace Flyke
 {
@@ -23,6 +29,8 @@ namespace Flyke
         public MainWindow()
         {
             InitializeComponent();
+            ScaleTransform scaleTransform = new ScaleTransform(0.5, 0.5);
+            mainWindow.LayoutTransform = scaleTransform;
         }
     }
 }
