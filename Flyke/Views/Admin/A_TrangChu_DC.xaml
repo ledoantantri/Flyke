@@ -57,65 +57,36 @@
                 </Style>
             </Button.Resources>
         </Button>
-        <TextBlock Text="Bảng điều khiển" Width="220" Height="34" Margin="121,334,1579,696"
-                    FontFamily="Raleway" FontSize="28" FontWeight="Medium" LineHeight="34"
-                    Foreground="#FFFFFF"/>
+        <Button Content="Bảng điều khiển" HorizontalAlignment="Left" VerticalAlignment="Top"
+        Margin="121,334,0,0" BorderThickness="0"
+        FontFamily="Raleway" FontSize="28.8" Foreground="#FFFFFF" Background="Transparent" FontWeight="Medium"
+        Width="220" Height="34" />
 
-        <TextBlock Text="Trang chủ" Width="220" Height="34" Margin="121,440,1579,590"
-                    FontFamily="Raleway" FontSize="28" FontWeight="Medium" LineHeight="34"
-                    Foreground="#FFFFFF"/>
+        <Button Content="Trang chủ" HorizontalAlignment="Left" VerticalAlignment="Top"
+        Margin="75,443,0,0" BorderThickness="0"
+        FontFamily="Raleway" FontSize="28.8" Foreground="#FFFFFF" Background="Transparent" FontWeight="Medium"
+        Width="220" Height="34" />
+
+        <Button Content="Tra cứu" HorizontalAlignment="Left" VerticalAlignment="Top"
+        Margin="60,529,0,0" BorderThickness="0"
+        FontFamily="Raleway" FontSize="28.8" Foreground="#FFFFFF" Background="Transparent" FontWeight="Medium"
+        Width="220" Height="34" />
+
+        <Button Content="Doanh thu" HorizontalAlignment="Left" VerticalAlignment="Top"
+        Margin="82,601,0,0" BorderThickness="0"
+        FontFamily="Raleway" FontSize="28.8" Foreground="#FFFFFF" Background="Transparent" FontWeight="Medium"
+        Width="220" Height="34" />
 
 
-        <TextBlock Text="Tra cứu" Width="220" Height="34" Margin="121,523,1579,507"
-                    FontFamily="Raleway" FontSize="28" FontWeight="Medium" LineHeight="34"
-                    Foreground="#FFFFFF"/>
+        <Button Content="Sửa quy định" HorizontalAlignment="Left" VerticalAlignment="Top"
+        Margin="96,682,0,0" BorderThickness="0"
+        FontFamily="Raleway" FontSize="28.8" Foreground="#FFFFFF" Background="Transparent" FontWeight="Medium"
+        Width="220" Height="34" />
 
-        <TextBlock Text="Doanh thu" Width="220" Height="34" Margin="121,604,1579,426"
-                    FontFamily="Raleway" FontSize="28" FontWeight="Medium" LineHeight="34"
-                    Foreground="#FFFFFF"/>
-
-        <TextBlock Text="Sửa quy định" Width="220" Height="34" Margin="121,687,1579,343"
-                    FontFamily="Raleway" FontSize="28" FontWeight="Medium" LineHeight="34"
-                    Foreground="#FFFFFF"/>
-
-        <TextBlock Text="Đăng xuất" Width="220" Height="34" Margin="121,970,1579,60"
-                    FontFamily="Raleway" FontSize="28" FontWeight="Medium" LineHeight="34"
-                    Foreground="#FFFFFF"/>
-
-        <Image Width="30" Height="30"
-       Source="D:\Flyke_Khang\A_Home_to_LCB\A_Home_to_LCB\images\airplay.png"
-       Stretch="Uniform"
-        Margin="67,336,1823,698" RenderTransformOrigin="0.6,0.374"/>
-
-        <Image Width="30" Height="30"
-       Source="D:\Flyke_Khang\A_Home_to_LCB\A_Home_to_LCB\images\Group 19.png"
-       Stretch="Uniform"
-        Margin="66,440,1824,594" RenderTransformOrigin="0.6,0.374"/>
-
-        <Image Width="30" Height="30"
-       Source="D:\Flyke_Khang\A_Home_to_LCB\A_Home_to_LCB\images\kinhlup.png"
-       Stretch="Uniform"
-        Margin="67,527,1823,507" RenderTransformOrigin="0.6,0.374"/>
-
-        <Image Width="30" Height="30"
-       Source="D:\Flyke_Khang\A_Home_to_LCB\A_Home_to_LCB\images\barchart.png"
-       Stretch="Uniform"
-        Margin="67,606,1823,428" RenderTransformOrigin="0.6,0.374"/>
-
-        <Image Width="30" Height="30"
-       Source="D:\Flyke_Khang\A_Home_to_LCB\A_Home_to_LCB\images\suaquydinh.png"
-       Stretch="Uniform"
-        Margin="67,689,1823,345" RenderTransformOrigin="0.6,0.374"/>
-
-        <Image Width="30" Height="30"
-       Source="D:\Flyke_Khang\A_Home_to_LCB\A_Home_to_LCB\images\dangxuat.png"
-       Stretch="Uniform"
-        Margin="67,972,1823,62" RenderTransformOrigin="0.6,0.374"/>
-
-        <Image Width="30" Height="30"
-       Source="D:\Flyke_Khang\A_Home_to_LCB\A_Home_to_LCB\images\dangxuat.png"
-       Stretch="Uniform"
-        Margin="67,972,1823,62" RenderTransformOrigin="0.6,0.374"/>
+        <Button Content="Đăng xuất" HorizontalAlignment="Left" VerticalAlignment="Top"
+        Margin="82,967,0,0" BorderThickness="0"
+        FontFamily="Raleway" FontSize="28.8" Foreground="#FFFFFF" Background="Transparent" FontWeight="Medium"
+        Width="220" Height="34" />
 
 
         <TextBlock Text="TRANG CHỦ" HorizontalAlignment="Left" VerticalAlignment="Top" Width="528" Height="73"
@@ -351,7 +322,9 @@
 
                         <!-- Đoạn mã XAML của TextBlock và Image tại đây -->
                         <Grid Margin="10,0,-10,0">
-                            <TextBlock Width="579" Height="50" Margin="65,10,361,0" Text="PHIẾU ĐẶT CHỖ" FontFamily="Raleway" FontWeight="Medium" FontSize="38" LineHeight="45" LineStackingStrategy="BlockLineHeight" TextAlignment="Left" VerticalAlignment="Top" Foreground="#FFFFFF" />
+                            <TextBlock Width="579" Height="40" Margin="80,0,346,0" Text="VÉ CHUYẾN BAY" FontFamily="Raleway" FontWeight="Medium" FontSize="38" LineHeight="45" LineStackingStrategy="BlockLineHeight" TextAlignment="Left" VerticalAlignment="Center" Foreground="#FFFFFF" />
+
+                            <Image Source="D:\Flyke_Khang\A_Home_to_BV\A_Home_to_BV\images\Vechuyenbay.png" Margin="3,12,934,12" />
                         </Grid>
                     </Border>
                 </Grid>
@@ -365,14 +338,32 @@
                                     <StaticResource ResourceKey="GradientBrush" />
                                 </TextBlock.Foreground>
                             </TextBlock>
-                            <Border Margin="197,232,604,122" CornerRadius="5" Background="#FFFFFF" Height="42" Width="200">
-                                <Border.BorderBrush>
-                                    <StaticResource ResourceKey="GradientBrush" />
-                                </Border.BorderBrush>
-                                <Border.BorderThickness>
-                                    <Thickness>2</Thickness>
-                                </Border.BorderThickness>
-                            </Border>
+                            <Button HorizontalAlignment="Left" VerticalAlignment="Top"
+        Width="200" Height="42"
+        Margin="196,162,0,0"
+        Padding="17.5" Background="Transparent">
+
+
+
+                                <Button.BorderBrush>
+                                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                                        <GradientStop Color="#FB4A4A" Offset="-0.1093" />
+                                        <GradientStop Color="#2027CC" Offset="0.9961" />
+                                    </LinearGradientBrush>
+                                </Button.BorderBrush>
+
+                                <Button.BorderThickness>
+                                    <Thickness>3</Thickness>
+                                </Button.BorderThickness>
+
+                                <Button.Resources>
+                                    <Style TargetType="Border">
+                                        <Setter Property="CornerRadius" Value="10" >
+
+                                        </Setter>
+                                    </Style>
+                                </Button.Resources>
+                            </Button>
                         </Grid>
                         <Grid>
                             <TextBlock Width="201" Height="35" Margin="35,162,769,0" 
@@ -381,14 +372,32 @@
                                     <StaticResource ResourceKey="GradientBrush" />
                                 </TextBlock.Foreground>
                             </TextBlock>
-                            <Border Margin="196,155,605,199" CornerRadius="5" Background="#FFFFFF" Height="42" Width="200">
-                                <Border.BorderBrush>
-                                    <StaticResource ResourceKey="GradientBrush" />
-                                </Border.BorderBrush>
-                                <Border.BorderThickness>
-                                    <Thickness>2</Thickness>
-                                </Border.BorderThickness>
-                            </Border>
+                            <Button HorizontalAlignment="Left" VerticalAlignment="Top"
+        Width="200" Height="42"
+        Margin="194,234,0,0"
+        Padding="17.5" Background="Transparent">
+
+
+
+                                <Button.BorderBrush>
+                                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                                        <GradientStop Color="#FB4A4A" Offset="-0.1093" />
+                                        <GradientStop Color="#2027CC" Offset="0.9961" />
+                                    </LinearGradientBrush>
+                                </Button.BorderBrush>
+
+                                <Button.BorderThickness>
+                                    <Thickness>3</Thickness>
+                                </Button.BorderThickness>
+
+                                <Button.Resources>
+                                    <Style TargetType="Border">
+                                        <Setter Property="CornerRadius" Value="10" >
+
+                                        </Setter>
+                                    </Style>
+                                </Button.Resources>
+                            </Button>
                         </Grid>
                         <Grid>
                             <TextBlock Width="201" Height="35" Margin="35,237,767,0" 
@@ -397,14 +406,32 @@
                                     <StaticResource ResourceKey="GradientBrush" />
                                 </TextBlock.Foreground>
                             </TextBlock>
-                            <Border Margin="195,83,606,271" CornerRadius="5" Background="#FFFFFF" Height="42" Width="200">
-                                <Border.BorderBrush>
-                                    <StaticResource ResourceKey="GradientBrush" />
-                                </Border.BorderBrush>
-                                <Border.BorderThickness>
-                                    <Thickness>2</Thickness>
-                                </Border.BorderThickness>
-                            </Border>
+                            <Button HorizontalAlignment="Left" VerticalAlignment="Top"
+        Width="200" Height="42"
+        Margin="197,87,0,0"
+        Padding="17.5" Background="Transparent">
+
+
+
+                                <Button.BorderBrush>
+                                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                                        <GradientStop Color="#FB4A4A" Offset="-0.1093" />
+                                        <GradientStop Color="#2027CC" Offset="0.9961" />
+                                    </LinearGradientBrush>
+                                </Button.BorderBrush>
+
+                                <Button.BorderThickness>
+                                    <Thickness>3</Thickness>
+                                </Button.BorderThickness>
+
+                                <Button.Resources>
+                                    <Style TargetType="Border">
+                                        <Setter Property="CornerRadius" Value="10" >
+
+                                        </Setter>
+                                    </Style>
+                                </Button.Resources>
+                            </Button>
                         </Grid>
 
                     </Grid>
@@ -416,14 +443,32 @@
                                     <StaticResource ResourceKey="GradientBrush" />
                                 </TextBlock.Foreground>
                             </TextBlock>
-                            <Border Margin="686,226,35,128" CornerRadius="5" Background="#FFFFFF" Height="42" Width="280">
-                                <Border.BorderBrush>
-                                    <StaticResource ResourceKey="GradientBrush" />
-                                </Border.BorderBrush>
-                                <Border.BorderThickness>
-                                    <Thickness>2</Thickness>
-                                </Border.BorderThickness>
-                            </Border>
+                            <Button HorizontalAlignment="Left" VerticalAlignment="Top"
+        Width="280" Height="42"
+        Margin="684,82,0,0"
+        Padding="17.5" Background="Transparent">
+
+
+
+                                <Button.BorderBrush>
+                                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                                        <GradientStop Color="#FB4A4A" Offset="-0.1093" />
+                                        <GradientStop Color="#2027CC" Offset="0.9961" />
+                                    </LinearGradientBrush>
+                                </Button.BorderBrush>
+
+                                <Button.BorderThickness>
+                                    <Thickness>3</Thickness>
+                                </Button.BorderThickness>
+
+                                <Button.Resources>
+                                    <Style TargetType="Border">
+                                        <Setter Property="CornerRadius" Value="10" >
+
+                                        </Setter>
+                                    </Style>
+                                </Button.Resources>
+                            </Button>
                         </Grid>
                         <Grid>
                             <TextBlock Width="201" Height="35" Margin="471,163,329,0" 
@@ -432,14 +477,32 @@
                                     <StaticResource ResourceKey="GradientBrush" />
                                 </TextBlock.Foreground>
                             </TextBlock>
-                            <Border Margin="686,86,35,268" CornerRadius="5" Background="#FFFFFF" Height="42" Width="280">
-                                <Border.BorderBrush>
-                                    <StaticResource ResourceKey="GradientBrush" />
-                                </Border.BorderBrush>
-                                <Border.BorderThickness>
-                                    <Thickness>2</Thickness>
-                                </Border.BorderThickness>
-                            </Border>
+                            <Button HorizontalAlignment="Left" VerticalAlignment="Top"
+        Width="280" Height="42"
+        Margin="686,229,0,0"
+        Padding="17.5" Background="Transparent">
+
+
+
+                                <Button.BorderBrush>
+                                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                                        <GradientStop Color="#FB4A4A" Offset="-0.1093" />
+                                        <GradientStop Color="#2027CC" Offset="0.9961" />
+                                    </LinearGradientBrush>
+                                </Button.BorderBrush>
+
+                                <Button.BorderThickness>
+                                    <Thickness>3</Thickness>
+                                </Button.BorderThickness>
+
+                                <Button.Resources>
+                                    <Style TargetType="Border">
+                                        <Setter Property="CornerRadius" Value="10" >
+
+                                        </Setter>
+                                    </Style>
+                                </Button.Resources>
+                            </Button>
                         </Grid>
                         <Grid>
                             <TextBlock Width="201" Height="35" Margin="474,234,326,0" 
@@ -448,14 +511,33 @@
                                     <StaticResource ResourceKey="GradientBrush" />
                                 </TextBlock.Foreground>
                             </TextBlock>
-                            <Border Margin="686,156,35,198" CornerRadius="5" Background="#FFFFFF" Height="42" Width="280">
-                                <Border.BorderBrush>
-                                    <StaticResource ResourceKey="GradientBrush" />
-                                </Border.BorderBrush>
-                                <Border.BorderThickness>
-                                    <Thickness>2</Thickness>
-                                </Border.BorderThickness>
-                            </Border>
+
+                            <Button HorizontalAlignment="Left" VerticalAlignment="Top"
+        Width="280" Height="42"
+        Margin="684,156,0,0"
+        Padding="17.5" Background="Transparent">
+
+
+
+                                <Button.BorderBrush>
+                                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                                        <GradientStop Color="#FB4A4A" Offset="-0.1093" />
+                                        <GradientStop Color="#2027CC" Offset="0.9961" />
+                                    </LinearGradientBrush>
+                                </Button.BorderBrush>
+
+                                <Button.BorderThickness>
+                                    <Thickness>3</Thickness>
+                                </Button.BorderThickness>
+
+                                <Button.Resources>
+                                    <Style TargetType="Border">
+                                        <Setter Property="CornerRadius" Value="10" >
+
+                                        </Setter>
+                                    </Style>
+                                </Button.Resources>
+                            </Button>
                         </Grid>
 
                     </Grid>
@@ -464,90 +546,22 @@
 
 
                 </Grid>
-                <Grid
-               />
-                <Button Style="{StaticResource ButtonGradient4}" Margin="816,310,35,26" Width="150" Height="60"/>
+                <Grid>
+                    <Button Style="{StaticResource ButtonBlack}" Margin="35,295,758,25">
+                        <TextBlock Text="Xóa thông tin" Style="{StaticResource TextNormal}" />
+                    </Button>
+
+
+
+                </Grid>
+                <Button Style="{StaticResource ButtonGradient4}" Margin="815,303,36,33" Width="150" Height="60"/>
             </Grid>
 
         </Border>
-
-        <TextBlock Text="PL11233"
-           Width="186"
-           Height="28"
-           Margin="1032,254,0,0"
-           FontFamily="Raleway"
-           FontStyle="Normal"
-           FontWeight="Normal"
-           FontSize="28"
-           LineHeight="33"
-           HorizontalAlignment="Left"
-           VerticalAlignment="Top"
-           Foreground="#263238"/>
-        <TextBlock Text="1"
-           Width="186"
-           Height="28"
-           Margin="1032,328,0,0"
-           FontFamily="Raleway"
-           FontStyle="Normal"
-           FontWeight="Normal"
-           FontSize="28"
-           LineHeight="33"
-           HorizontalAlignment="Left"
-           VerticalAlignment="Top"
-           Foreground="#263238"/>
-        <TextBlock Text="2.000.000 VNĐ"
-           Width="186"
-           Height="28"
-           Margin="1032,404,0,0"
-           FontFamily="Raleway"
-           FontStyle="Normal"
-           FontWeight="Normal"
-           FontSize="28"
-           LineHeight="33"
-           HorizontalAlignment="Left"
-           VerticalAlignment="Top"
-           Foreground="#263238"/>
-
-        <TextBlock Text="0123456789"
-           Width="186"
-           Height="28"
-           Margin="1525,400,0,0"
-           FontFamily="Raleway"
-           FontStyle="Normal"
-           FontWeight="Normal"
-           FontSize="28"
-           LineHeight="33"
-           HorizontalAlignment="Left"
-           VerticalAlignment="Top"
-           Foreground="#263238"/>
-        <TextBlock Text="0123456789"
-           Width="186"
-           Height="28"
-           Margin="1525,329,0,0"
-           FontFamily="Raleway"
-           FontStyle="Normal"
-           FontWeight="Normal"
-           FontSize="28"
-           LineHeight="33"
-           HorizontalAlignment="Left"
-           VerticalAlignment="Top"
-           Foreground="#263238"/>
-        <TextBlock Text="Lê Đoàn Tấn Trí"
-           Width="200"
-           Height="28"
-           Margin="1525,258,0,0"
-           FontFamily="Raleway"
-           FontStyle="Normal"
-           FontWeight="Normal"
-           FontSize="28"
-           LineHeight="33"
-           HorizontalAlignment="Left"
-           VerticalAlignment="Top"
-           Foreground="#263238"/>
         <TextBlock
             FontFamily="Raleway" FontWeight="Normal" FontSize="28" LineHeight="60"
             TextAlignment="Center"
             Foreground="White"
-            Text="Đặt chỗ" Margin="1647,488,124,535" />
+            Text="Đặt chỗ" Margin="1647,480,124,543" />
     </Grid>
 </Window>

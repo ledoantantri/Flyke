@@ -58,31 +58,7 @@
                 </Style>
             </Button.Resources>
         </Button>
-        <TextBlock Text="Bảng điều khiển" Width="220" Height="34" Margin="121,334,1579,696"
-                    FontFamily="Raleway" FontSize="28" FontWeight="Medium" LineHeight="34"
-                    Foreground="#FFFFFF"/>
-
-        <TextBlock Text="Trang chủ" Width="220" Height="34" Margin="121,440,1579,590"
-                    FontFamily="Raleway" FontSize="28" FontWeight="Medium" LineHeight="34"
-                    Foreground="#FFFFFF"/>
-
-
-        <TextBlock Text="Tra cứu" Width="220" Height="34" Margin="121,523,1579,507"
-                    FontFamily="Raleway" FontSize="28" FontWeight="Medium" LineHeight="34"
-                    Foreground="#FFFFFF"/>
-
-        <TextBlock Text="Doanh thu" Width="220" Height="34" Margin="121,604,1579,426"
-                    FontFamily="Raleway" FontSize="28" FontWeight="Medium" LineHeight="34"
-                    Foreground="#FFFFFF"/>
-
-        <TextBlock Text="Sửa quy định" Width="220" Height="34" Margin="121,687,1579,343"
-                    FontFamily="Raleway" FontSize="28" FontWeight="Medium" LineHeight="34"
-                    Foreground="#FFFFFF"/>
-
-        <TextBlock Text="Đăng xuất" Width="220" Height="34" Margin="121,970,1579,60"
-                    FontFamily="Raleway" FontSize="28" FontWeight="Medium" LineHeight="34"
-                    Foreground="#FFFFFF"/>
-
+       
         <TextBlock Text="BÁO CÁO DOANH THU" HorizontalAlignment="Left" VerticalAlignment="Top" Width="684" Height="73"
                      Margin="444,70,0,0" FontFamily="Raleway" FontWeight="ExtraBold" FontSize="60"
                      >
@@ -97,41 +73,37 @@
             </TextBlock.Foreground>
 
         </TextBlock>
-        <Image Width="30" Height="30"
-       Source="D:\Flyke_Khang\A_Home_to_LCB\A_Home_to_LCB\images\airplay.png"
-       Stretch="Uniform"
-        Margin="67,336,1823,698" RenderTransformOrigin="0.6,0.374"/>
 
-        <Image Width="30" Height="30"
-       Source="D:\Flyke_Khang\A_Home_to_LCB\A_Home_to_LCB\images\Group 19.png"
-       Stretch="Uniform"
-        Margin="66,440,1824,594" RenderTransformOrigin="0.6,0.374"/>
+        <Button Content="Bảng điều khiển" HorizontalAlignment="Left" VerticalAlignment="Top"
+        Margin="121,334,0,0" BorderThickness="0"
+        FontFamily="Raleway" FontSize="28.8" Foreground="#FFFFFF" Background="Transparent" FontWeight="Medium"
+        Width="220" Height="34" />
 
-        <Image Width="30" Height="30"
-       Source="D:\Flyke_Khang\A_Home_to_LCB\A_Home_to_LCB\images\kinhlup.png"
-       Stretch="Uniform"
-        Margin="67,527,1823,507" RenderTransformOrigin="0.6,0.374"/>
+        <Button Content="Trang chủ" HorizontalAlignment="Left" VerticalAlignment="Top"
+        Margin="75,443,0,0" BorderThickness="0"
+        FontFamily="Raleway" FontSize="28.8" Foreground="#FFFFFF" Background="Transparent" FontWeight="Medium"
+        Width="220" Height="34" />
 
-        <Image Width="30" Height="30"
-       Source="D:\Flyke_Khang\A_Home_to_LCB\A_Home_to_LCB\images\barchart.png"
-       Stretch="Uniform"
-        Margin="67,606,1823,428" RenderTransformOrigin="0.6,0.374"/>
+        <Button Content="Tra cứu" HorizontalAlignment="Left" VerticalAlignment="Top"
+        Margin="60,529,0,0" BorderThickness="0"
+        FontFamily="Raleway" FontSize="28.8" Foreground="#FFFFFF" Background="Transparent" FontWeight="Medium"
+        Width="220" Height="34" />
 
-        <Image Width="30" Height="30"
-       Source="D:\Flyke_Khang\A_Home_to_LCB\A_Home_to_LCB\images\suaquydinh.png"
-       Stretch="Uniform"
-        Margin="67,689,1823,345" RenderTransformOrigin="0.6,0.374"/>
+        <Button Content="Doanh thu" HorizontalAlignment="Left" VerticalAlignment="Top"
+        Margin="82,601,0,0" BorderThickness="0"
+        FontFamily="Raleway" FontSize="28.8" Foreground="#FFFFFF" Background="Transparent" FontWeight="Medium"
+        Width="220" Height="34" />
 
-        <Image Width="30" Height="30"
-       Source="D:\Flyke_Khang\A_Home_to_LCB\A_Home_to_LCB\images\dangxuat.png"
-       Stretch="Uniform"
-        Margin="67,972,1823,62" RenderTransformOrigin="0.6,0.374"/>
 
-        <Image Width="30" Height="30"
-       Source="D:\Flyke_Khang\A_Home_to_LCB\A_Home_to_LCB\images\dangxuat.png"
-       Stretch="Uniform"
-        Margin="67,972,1823,62" RenderTransformOrigin="0.6,0.374"/>
+        <Button Content="Sửa quy định" HorizontalAlignment="Left" VerticalAlignment="Top"
+        Margin="96,682,0,0" BorderThickness="0"
+        FontFamily="Raleway" FontSize="28.8" Foreground="#FFFFFF" Background="Transparent" FontWeight="Medium"
+        Width="220" Height="34" />
 
+        <Button Content="Đăng xuất" HorizontalAlignment="Left" VerticalAlignment="Top"
+        Margin="82,967,0,0" BorderThickness="0"
+        FontFamily="Raleway" FontSize="28.8" Foreground="#FFFFFF" Background="Transparent" FontWeight="Medium"
+        Width="220" Height="34" />
 
         <TextBlock Text="Chủ nhật, ngày 01 tháng 01 năm 2023" HorizontalAlignment="Left" VerticalAlignment="Top" Width="528" Height="70"
                      Margin="1414,75,0,0" FontFamily="Raleway" FontWeight="Normal" FontSize="18"

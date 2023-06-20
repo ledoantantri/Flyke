@@ -48,7 +48,7 @@
 
         <Button Width="324" Height="72"
         Background="#80FFFFFF" BorderBrush="Transparent"
-        BorderThickness="0" Margin="30,334,1566,658">
+        BorderThickness="0" Margin="30,315,1566,677">
             <!-- Button Content Goes Here -->
             <Button.Resources>
                 <Style TargetType="Border">
@@ -59,26 +59,7 @@
             </Button.Resources>
         </Button>
 
-        <TextBlock Text="Trang chủ" Width="220" Height="34" Margin="121,352,1579,678"
-                    FontFamily="Raleway" FontSize="28" FontWeight="Medium" LineHeight="34"
-                    Foreground="#FFFFFF"/>
-
-
-        <TextBlock Text="Tra cứu" Width="220" Height="34" Margin="121,449,1579,581"
-                    FontFamily="Raleway" FontSize="28" FontWeight="Medium" LineHeight="34"
-                    Foreground="#FFFFFF"/>
-
-        <TextBlock Text="Doanh thu" Width="220" Height="34" Margin="121,546,1579,484"
-                    FontFamily="Raleway" FontSize="28" FontWeight="Medium" LineHeight="34"
-                    Foreground="#FFFFFF"/>
-
-        <TextBlock Text="Sửa quy định" Width="220" Height="34" Margin="121,647,1579,383"
-                    FontFamily="Raleway" FontSize="28" FontWeight="Medium" LineHeight="34"
-                    Foreground="#FFFFFF"/>
-
-        <TextBlock Text="Đăng xuất" Width="220" Height="34" Margin="121,970,1579,60"
-                    FontFamily="Raleway" FontSize="28" FontWeight="Medium" LineHeight="34"
-                    Foreground="#FFFFFF"/>
+       
 
         <TextBlock Text="TRANG CHỦ" HorizontalAlignment="Left" VerticalAlignment="Top" Width="528" Height="73"
                      Margin="444,70,0,0" FontFamily="Raleway" FontWeight="Bold" FontSize="60"
@@ -657,111 +638,6 @@
             </Button.Resources>
         </Button>
 
-        <TextBlock Text="PL1123"
-           Width="103"
-           Height="35"
-           Margin="1094,259.19,0,0"
-           FontFamily="Raleway"
-           FontStyle="Normal"
-           FontWeight="Normal"
-           FontSize="28"
-           LineHeight="33"
-           HorizontalAlignment="Left"
-           VerticalAlignment="Top"
-           Foreground="#263238"/>
-
-        <TextBlock Text="TSN"
-           Width="103"
-           Height="36"
-           Margin="1094,318,0,0"
-           FontFamily="Raleway"
-           FontStyle="Normal"
-           FontWeight="Normal"
-           FontSize="28"
-           LineHeight="33"
-           HorizontalAlignment="Left"
-           VerticalAlignment="Top"
-           Foreground="#263238"/>
-
-        <TextBlock Text="14:00 01/05/23"
-           Width="186"
-           Height="28"
-           Margin="1078,377,0,0"
-           FontFamily="Raleway"
-           FontStyle="Normal"
-           FontWeight="Normal"
-           FontSize="28"
-           LineHeight="33"
-           HorizontalAlignment="Left"
-           VerticalAlignment="Top"
-           Foreground="#263238"/>
-
-        <TextBlock Text="60"
-           Width="186"
-           Height="28"
-           Margin="1094,436,0,0"
-           FontFamily="Raleway"
-           FontStyle="Normal"
-           FontWeight="Normal"
-           FontSize="28"
-           LineHeight="33"
-           HorizontalAlignment="Left"
-           VerticalAlignment="Top"
-           Foreground="#263238"/>
-
-        <TextBlock Text="1.200.000 VNĐ"
-           Width="186"
-           Height="28"
-           Margin="1572,264,0,0"
-           FontFamily="Raleway"
-           FontStyle="Normal"
-           FontWeight="Normal"
-           FontSize="28"
-           LineHeight="33"
-           HorizontalAlignment="Left"
-           VerticalAlignment="Top"
-           Foreground="#263238"/>
-
-        <TextBlock Text="HNB"
-           Width="186"
-           Height="28"
-           Margin="1577,323,0,0"
-           FontFamily="Raleway"
-           FontStyle="Normal"
-           FontWeight="Normal"
-           FontSize="28"
-           LineHeight="33"
-           HorizontalAlignment="Left"
-           VerticalAlignment="Top"
-           Foreground="#263238"/>
-
-
-        <TextBlock Text="120 phút"
-           Width="186"
-           Height="28"
-           Margin="1572,377,0,0"
-           FontFamily="Raleway"
-           FontStyle="Normal"
-           FontWeight="Normal"
-           FontSize="28"
-           LineHeight="33"
-           HorizontalAlignment="Left"
-           VerticalAlignment="Top"
-           Foreground="#263238"/>
-
-        <TextBlock Text="40"
-           Width="186"
-           Height="28"
-           Margin="1582,429,0,0"
-           FontFamily="Raleway"
-           FontStyle="Normal"
-           FontWeight="Normal"
-           FontSize="28"
-           LineHeight="33"
-           HorizontalAlignment="Left"
-           VerticalAlignment="Top"
-           Foreground="#263238"/>
-
         <TextBlock Text="Sân bay trung gian"
            Width="247"
            Height="35"
@@ -1221,34 +1097,35 @@
            Foreground="#FFFFFF"
            Text="Tải lên file .txt" Margin="1151,987,575,40" />
 
-        <Image Width="30" Height="30"
-       Source="D:\Flyke_Khang\A_Home_to_LCB\A_Home_to_LCB\images\Group 19.png"
-       Stretch="Uniform"
-        Margin="68,352,1822,682" RenderTransformOrigin="0.383,1.444"/>
+        <Button Content="Bảng điều khiển" HorizontalAlignment="Left" VerticalAlignment="Top"
+        Margin="121,334,0,0" BorderThickness="0"
+        FontFamily="Raleway" FontSize="28.8" Foreground="#FFFFFF" Background="Transparent" FontWeight="Medium"
+        Width="220" Height="34" />
 
-        <Image Width="30" Height="30"
-       Source="D:\Flyke_Khang\A_Home_to_LCB\A_Home_to_LCB\images\kinhlup.png"
-       Stretch="Uniform"
-        Margin="66,449,1824,585" RenderTransformOrigin="0.6,0.374"/>
+        <Button Content="Trang chủ" HorizontalAlignment="Left" VerticalAlignment="Top"
+        Margin="75,443,0,0" BorderThickness="0"
+        FontFamily="Raleway" FontSize="28.8" Foreground="#FFFFFF" Background="Transparent" FontWeight="Medium"
+        Width="220" Height="34" />
 
-        <Image Width="30" Height="30"
-       Source="D:\Flyke_Khang\A_Home_to_LCB\A_Home_to_LCB\images\barchart.png"
-       Stretch="Uniform"
-        Margin="60,548,1830,486" RenderTransformOrigin="0.6,0.374"/>
+        <Button Content="Tra cứu" HorizontalAlignment="Left" VerticalAlignment="Top"
+        Margin="60,529,0,0" BorderThickness="0"
+        FontFamily="Raleway" FontSize="28.8" Foreground="#FFFFFF" Background="Transparent" FontWeight="Medium"
+        Width="220" Height="34" />
 
-        <Image Width="30" Height="30"
-       Source="D:\Flyke_Khang\A_Home_to_LCB\A_Home_to_LCB\images\suaquydinh.png"
-       Stretch="Uniform"
-        Margin="60,651,1830,383" RenderTransformOrigin="0.6,0.374"/>
+        <Button Content="Doanh thu" HorizontalAlignment="Left" VerticalAlignment="Top"
+        Margin="82,601,0,0" BorderThickness="0"
+        FontFamily="Raleway" FontSize="28.8" Foreground="#FFFFFF" Background="Transparent" FontWeight="Medium"
+        Width="220" Height="34" />
 
-        <Image Width="30" Height="30"
-       Source="D:\Flyke_Khang\A_Home_to_LCB\A_Home_to_LCB\images\dangxuat.png"
-       Stretch="Uniform"
-        Margin="67,972,1823,62" RenderTransformOrigin="0.6,0.374"/>
 
-        <Image Width="30" Height="30"
-       Source="D:\Flyke_Khang\A_Home_to_LCB\A_Home_to_LCB\images\dangxuat.png"
-       Stretch="Uniform"
-        Margin="67,972,1823,62" RenderTransformOrigin="0.6,0.374"/>
+        <Button Content="Sửa quy định" HorizontalAlignment="Left" VerticalAlignment="Top"
+        Margin="96,682,0,0" BorderThickness="0"
+        FontFamily="Raleway" FontSize="28.8" Foreground="#FFFFFF" Background="Transparent" FontWeight="Medium"
+        Width="220" Height="34" />
+
+        <Button Content="Đăng xuất" HorizontalAlignment="Left" VerticalAlignment="Top"
+        Margin="82,967,0,0" BorderThickness="0"
+        FontFamily="Raleway" FontSize="28.8" Foreground="#FFFFFF" Background="Transparent" FontWeight="Medium"
+        Width="220" Height="34" />
     </Grid>
 </Window>
